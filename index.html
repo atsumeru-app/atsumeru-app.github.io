@@ -5,29 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>アプリ「atsumeru」公式サイト</title>
     <style>
-        /* 見た目を整えるためのCSS */
+        /* 基本スタイル */
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.8; margin: 0; color: #333; }
         .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        section { padding: 60px 20px; }
+        h2 { text-align: center; margin-bottom: 40px; font-size: 2em; }
+
+        /* ヘッダー */
         header { text-align: center; padding: 60px 20px; background-color: #f8f9fa; }
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { font-size: 1.2em; color: #6c757d; }
+        .app-title { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; }
+        .app-icon { width: 80px; height: 80px; border-radius: 18px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2.8em; margin: 0; }
+        header p { font-size: 1.2em; color: #6c757d; margin-top: 10px; }
         .download-button { display: inline-block; background-color: #007bff; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 20px; }
-        section { padding: 40px 20px; }
-        h2 { text-align: center; margin-bottom: 40px; }
-        .features { display: flex; justify-content: space-around; text-align: center; flex-wrap: wrap; }
-        .feature-item { max-width: 220px; margin: 20px; }
-        .screenshots img { width: 100%; max-width: 250px; margin: 10px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .screenshots { text-align: center; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        footer { text-align: center; padding: 20px; background-color: #343a40; color: white; }
+
+        /* 特徴セクション */
+        .features { display: flex; justify-content: center; text-align: center; flex-wrap: wrap; gap: 30px; align-items: flex-start; }
+        .feature-item { max-width: 240px; }
+        .feature-item h3 { margin-bottom: 10px; }
+        .feature-item p { font-size: 0.9em; color: #555; text-align: left;}
+        .feature-item img { width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-top: 15px; }
+
+        /* アコーディオン（シリアルキー） */
+        .accordion-item { border-bottom: 1px solid #ddd; }
+        .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; }
+        .accordion-title::after { content: '▼'; font-size: 0.8em; transition: transform 0.3s; }
+        .accordion-item.active .accordion-title::after { transform: rotate(180deg); }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: #f9f9f9; }
+        .accordion-content-inner { padding: 20px; }
+        .serial-key-code { background-color: #e9ecef; padding: 5px 10px; border-radius: 4px; font-family: monospace; }
+
+        /* 申請フォーム */
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+        .form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; }
+        .submit-button { display: block; width: 100%; padding: 15px; background-color: #28a745; color: white; border: none; border-radius: 8px; font-size: 1.2em; font-weight: bold; cursor: pointer; }
+
+        /* フッター */
+        footer { text-align: center; padding: 30px; background-color: #343a40; color: white; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>atsumeru</h1>
+        <div class="app-title">
+            <img src="app-icon.png" alt="アプリアイコン" class="app-icon">
+            <h1>atsumeru</h1>
+        </div>
         <p>ダブルタップで簡単登録！直感的で簡単でありつつ柔軟な操作を実現！不便だったグッズの集計・管理を改革します！</p>
         <a href="（App Storeのリンク）" class="download-button">App Storeでダウンロード</a>
     </header>
@@ -39,61 +63,85 @@
                 <div class="feature-item">
                     <h3>階層的なデータ管理</h3>
                     <p>グループ、メンバー、シリーズ、種類の階層構造がどんな方法よりも優れたグッズ管理を実現します。</p>
+                    <img src="feature1.png" alt="階層管理のスクリーンショット">
                 </div>
                 <div class="feature-item">
                     <h3>片手でスムーズな集計</h3>
                     <p>数値入力やボタンに加え、ダブルタップでもカウントが可能に。スムーズで直感的な集計を実現します。</p>
+                    <img src="feature2.png" alt="集計機能のスクリーンショット">
                 </div>
                 <div class="feature-item">
                     <h3>2つの表示モード</h3>
                     <p>「シリーズごと」「メンバーごと」の表示をワンタップで変更可能。状況に応じて最適な管理を実現します。</p>
+                    <img src="feature3.png" alt="表示モードのスクリーンショット">
                 </div>
                 <div class="feature-item">
                     <h3>便利なApp内課金</h3>
                     <p>使い勝手を飛躍的に向上させる、タグ絞り込みやシリアルキー登録などの機能を追加できます。</p>
+                    <img src="feature4.png" alt="App内課金のスクリーンショット">
                 </div>
                 <div class="feature-item">
                     <h3>柔軟な絞り込みと検索</h3>
                     <p>タグ機能により、自分の思いのままに、より簡単な絞り込みが可能になります。</p>
+                    <img src="feature5.png" alt="検索機能のスクリーンショット">
                 </div>
                 <div class="feature-item">
                     <h3>シリーズ一括登録</h3>
                     <p>面倒なデータセットの作成も、シリアルキーの入力だけで一瞬で完了します。</p>
+                    <img src="feature6.png" alt="一括登録のスクリーンショット">
                 </div>
             </div>
         </section>
 
         <section id="screenshots">
-            <h2>スクリーンショット</h2>
-            <div class="screenshots">
-                <p>（ここにスクリーンショットの画像ファイルを置きます）</p>
-            </div>
+            <h2>ギャラリー</h2>
+            <p>（ここに他のスクリーンショットなどを配置できます）</p>
         </section>
 
         <section id="serial-keys">
             <h2>シリアルキー</h2>
-            <p>アプリで利用できるシリアルキーの一覧です。キーをコピーしてアプリに入力してください。</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>シリアルキー</th>
-                        <th>機能・内容</th>
-                        <th>追加日</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>WELCOME-GIFT</td>
-                        <td>初回特典として100コインをプレゼントします。</td>
-                        <td>2025-07-29</td>
-                    </tr>
-                    <tr>
-                        <td>ANOTHER-KEY</td>
-                        <td>特別な背景デザインをアンロックします。</td>
-                        <td>2025-07-28</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-title">初回特典コイン</div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p><strong>内容:</strong> 初回特典として100コインをプレゼントします。</p>
+                            <p><strong>シリアルキー:</strong> <code class="serial-key-code">WELCOME-GIFT</code></p>
+                            <p><strong>追加日:</strong> 2025-07-29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">特別な背景デザイン</div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p><strong>内容:</strong> 限定の特別な背景デザインをアンロックします。</p>
+                            <p><strong>シリアルキー:</strong> <code class="serial-key-code">ANOTHER-KEY</code></p>
+                            <p><strong>追加日:</strong> 2025-07-28</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="request-form">
+            <h2>シリアルキー作成申請</h2>
+            <p>欲しいシリーズやデータセットがあれば、こちらから作成を申請できます。</p>
+            <form action="https://formspree.io/f/xxxxxxxx" method="POST">
+                <div class="form-group">
+                    <label for="series-name">シリーズ名</label>
+                    <input type="text" id="series-name" name="シリーズ名" required>
+                </div>
+                <div class="form-group">
+                    <label for="element-type">要素の種類</label>
+                    <input type="text" id="element-type" name="要素の種類" placeholder="例：缶バッジ、アクリルスタンド" required>
+                </div>
+                <div class="form-group">
+                    <label for="target-members">対象メンバー</label>
+                    <textarea id="target-members" name="対象メンバー" rows="4" placeholder="例：A, B, C, D, E" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">開発者に送信</button>
+            </form>
         </section>
 
     </div>
@@ -101,6 +149,25 @@
     <footer>
         <p>&copy; 2025 Asahi Mizutani. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        const accordionItems = document.querySelectorAll('.accordion-item');
+        accordionItems.forEach(item => {
+            const title = item.querySelector('.accordion-title');
+            const content = item.querySelector('.accordion-content');
+            title.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                accordionItems.forEach(i => {
+                    i.classList.remove('active');
+                    i.querySelector('.accordion-content').style.maxHeight = null;
+                });
+                if (!isActive) {
+                    item.classList.add('active');
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
