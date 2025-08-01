@@ -13,22 +13,22 @@
         .container { max-width: 800px; margin: 0 auto; padding: 20px; }
         section { padding: 60px 20px; }
         h2 { text-align: center; margin-bottom: 40px; font-size: 2em; }
-
+    
         /* ヘッダー */
         header { text-align: center; padding: 60px 20px; background-color: #f8f9fa; }
         .app-title { display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; }
         .app-icon { width: 80px; height: 80px; border-radius: 18px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        header h1 { font-family: 'Jost', sans-serif; font-size: 2.8em; margin: 0; }
+        header h1 { font-size: 2.8em; margin: 0; }
         header p { font-size: 1.2em; color: #6c757d; margin-top: 10px; }
         .download-button { display: inline-block; background-color: #007bff; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 20px; }
-
+    
         /* 特徴セクション */
         .features { display: flex; justify-content: center; text-align: center; flex-wrap: wrap; gap: 30px; align-items: flex-start; }
         .feature-item { max-width: 240px; }
         .feature-item h3 { margin-bottom: 10px; }
         .feature-item p { font-size: 0.9em; color: #555; text-align: left;}
         .feature-item img { width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-top: 15px; }
-
+    
         /* アコーディオン（シリアルキー） */
         .accordion-item { border-bottom: 1px solid #ddd; }
         .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; }
@@ -37,13 +37,20 @@
         .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: #f9f9f9; }
         .accordion-content-inner { padding: 20px; }
         .serial-key-code { background-color: #e9ecef; padding: 5px 10px; border-radius: 4px; font-family: monospace; }
-
+    
         /* 申請フォーム */
         .form-group { margin-bottom: 20px; }
         .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
-        .form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; }
+        .form-group input, .form-group textarea, .form-group select { 
+            width: 100%; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+            font-size: 1em; 
+            box-sizing: border-box;
+        }
         .submit-button { display: block; width: 100%; padding: 15px; background-color: #28a745; color: white; border: none; border-radius: 8px; font-size: 1.2em; font-weight: bold; cursor: pointer; }
-
+    
         /* フッター */
         footer { text-align: center; padding: 30px; background-color: #343a40; color: white; }
     </style>
@@ -125,7 +132,7 @@
         <section id="request-form">
             <h2>シリアルキー作成申請</h2>
             <p>欲しいシリーズやデータセットがあれば、こちらから作成を申請できます。</p>
-            <form action="https://formspree.io/f/xxxxxxxx" method="POST">
+            <form action="https://formspree.io/f/xkgzzarn" method="POST">
                 <div class="form-group">
                     <label for="series-name">シリーズ名</label>
                     <input type="text" id="series-name" name="シリーズ名" required>
@@ -139,6 +146,27 @@
                     <textarea id="target-members" name="対象メンバー" rows="4" placeholder="例：メンバーA,メンバーB,メンバーC,メンバーD" required></textarea>
                 </div>
                 <button type="submit" class="submit-button">開発者に送信</button>
+            </form>
+        </section>
+
+        <section id="feedback-form">
+            <h2>ご意見・ご要望</h2>
+            <p>アプリをより良くするための、ご意見、ご要望、不具合の報告などをお待ちしております。</p>
+            
+            <form action="https://formspree.io/f/mjkoodwo" method="POST">
+                <div class="form-group">
+                    <label for="feedback-type">お問い合わせの種類</label>
+                    <select id="feedback-type" name="種類" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 1em;">
+                        <option value="ご意見・ご要望">ご意見・ご要望</option>
+                        <option value="不具合の報告">不具合の報告</option>
+                        <option value="その他">その他</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="feedback-details">内容</label>
+                    <textarea id="feedback-details" name="内容" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">送信</button>
             </form>
         </section>
 
