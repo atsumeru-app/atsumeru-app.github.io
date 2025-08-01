@@ -30,6 +30,8 @@
         .feature-item img { width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-top: 15px; }
         
         /* アコーディオン（シリアルキー） */
+        .group-title {font-size: 1.6em; margin-top: 50px; margin-bottom: 25px; padding-bottom: 10px; border-bottom: 2px solid #007bff;}
+        .group-title:first-of-type {margin-top: 0;}
         .accordion-item { border-bottom: 1px solid #ddd; }
         .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; }
         .accordion-title::after { content: '▼'; font-size: 0.8em; transition: transform 0.3s; }
@@ -189,36 +191,53 @@
                     
                     let htmlContent = '';
     
-                    // キーのオブジェクトをループ
+                    // 1. キーをグループごとにまとめる
+                    const groupedKeys = {};
                     for (const serialKey in allKeys) {
                         const keyInfo = allKeys[serialKey];
+                        const group = keyInfo.groupName || 'その他'; // groupNameがなければ「その他」に分類
+
+                        if (!groupedKeys[group]) {
+                            groupedKeys[group] = [];
+                        }
+                        // 元のキー名もデータに含めておく
+                        keyInfo.id = serialKey; 
+                        groupedKeys[group].push(keyInfo);
+                    }
+
+                    // 2. グループごとにHTMLを生成
+                    let htmlContent = '';
+                    for (const groupName in groupedKeys) {
+                        // グループの見出しを追加
+                        htmlContent += `<h3 class="group-title">${groupName}</h3>`;
                         
-                        // キーに含まれるシリーズ情報のHTMLリストを作成
-                        let seriesListHtml = '<ul>';
-                        keyInfo.series_ids.forEach(seriesId => {
-                            const seriesData = allSeries[seriesId];
-                            if (seriesData) {
-                                seriesListHtml += `<li><strong>${seriesData.seriesName}</strong> (${seriesData.members.length}名 / ${seriesData.kinds.length}種)</li>`;
-                            }
-                        });
-                        seriesListHtml += '</ul>';
-    
-                        // アコーディオンのHTMLを生成
-                        htmlContent += `
-                            <div class="accordion-item">
-                                <div class="accordion-title">${keyInfo.title}</div>
-                                <div class="accordion-content">
-                                    <div class="accordion-content-inner">
-                                        <p><strong>このキーで入手できるシリーズ:</strong></p>
-                                        ${seriesListHtml}
-                                        <hr>
-                                        <p><strong>シリアルキー:</strong> <code class="serial-key-code">${serialKey}</code></p>
+                        // 各グループ内のキーでアコーディオンを生成
+                        groupedKeys[groupName].forEach(keyInfo => {
+                            let seriesListHtml = '<ul>';
+                            keyInfo.series_ids.forEach(seriesId => {
+                                const seriesData = allSeries[seriesId];
+                                if (seriesData) {
+                                    seriesListHtml += `<li><strong>${seriesData.seriesName}</strong></li>`;
+                                }
+                            });
+                            seriesListHtml += '</ul>';
+
+                            htmlContent += `
+                                <div class="accordion-item">
+                                    <div class="accordion-title">${keyInfo.title}</div>
+                                    <div class="accordion-content">
+                                        <div class="accordion-content-inner">
+                                            <p><strong>このキーで入手できるシリーズ:</strong></p>
+                                            ${seriesListHtml}
+                                            <hr>
+                                            <p><strong>シリアルキー:</strong> <code class="serial-key-code">${keyInfo.id}</code></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        `;
+                            `;
+                        });
                     }
-    
+
                     accordionContainer.innerHTML = htmlContent;
                     setupAccordion();
                 })
