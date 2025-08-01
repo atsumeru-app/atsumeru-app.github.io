@@ -35,23 +35,53 @@
             margin-top: 20px;
             margin-bottom: 0;
             padding: 20px;
-            border-bottom: 1px solid #eee; 
-            cursor: pointer; 
-            position: relative; 
-            background-color: #f8f9fa; 
+            border: 1px solid #ddd;
+            cursor: pointer;
+            position: relative;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            transition: border-radius 0.4s;
+        }
+        .group-title.active {
             border-radius: 8px 8px 0 0;
         }
         .group-title:first-of-type { margin-top: 0; }
         .group-title::after { content: '▼'; font-size: 0.8em; position: absolute; right: 20px; transition: transform 0.3s; }
         .group-title.active::after { transform: rotate(180deg); }
-        .key-list-container { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; background-color: #fff; border-right: 1px solid #eee; border-left: 1px solid #eee; }
-        .accordion-item { border-bottom: 1px solid #eee; }
-        .accordion-item:last-child { border-bottom: none; }
-        .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; }
+
+        .key-list-container {
+            display: grid;
+            grid-template-rows: 0fr; /* 初期状態ではコンテンツの高さを0にする */
+            transition: grid-template-rows 0.4s ease-out;
+            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+        }
+        .group-title.active + .key-list-container {
+            grid-template-rows: 1fr; /* activeクラスがつくとコンテンツの高さに広がる */
+        }
+        .key-list-inner {
+             overflow: hidden;
+        }
+
+        .accordion-item { border-top: 1px solid #eee; }
+        .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; background: #fff; }
         .accordion-title::after { content: '›'; font-size: 1.5em; transition: transform 0.3s; }
         .accordion-item.active .accordion-title::after { transform: rotate(90deg); }
-        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: #f9f9f9; }
-        .accordion-content-inner { padding: 20px; }
+
+        .accordion-content {
+            display: grid;
+            grid-template-rows: 0fr; /* こちらも同じ仕組み */
+            transition: grid-template-rows 0.3s ease-out;
+        }
+        .accordion-item.active .accordion-content {
+            grid-template-rows: 1fr;
+        }
+        .accordion-content-inner {
+            overflow: hidden;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
         .serial-key-code { background-color: #e9ecef; padding: 5px 10px; border-radius: 4px; font-family: monospace; }
         .tag { display: inline-block; background-color: #6c757d; color: white; padding: 2px 8px; font-size: 0.8em; border-radius: 10px; margin-right: 5px; }
     
@@ -175,53 +205,28 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            console.log("1. ページの読み込み完了。JSONの取得を開始します。");
-    
             fetch('serial_keys.json')
-                .then(response => {
-                    console.log("2. fetch成功。レスポンス:", response);
-                    if (!response.ok) {
-                        console.error("ネットワークレスポンスが異常です:", response.statusText);
-                        return Promise.reject('ネットワークエラー');
-                    }
-                    return response.json();
-                })
+                .then(response => response.json())
                 .then(data => {
-                    console.log("3. JSONの解析成功。取得したデータ:", data);
-    
-                    const accordionContainer = document.getElementById('serial-key-groups');
-                    if (!accordionContainer) {
-                        console.error("エラー: ID 'serial-key-groups' の要素が見つかりません。");
-                        return;
-                    }
-                    console.log("4. HTMLのコンテナ要素を発見。");
-    
+                    const groupsContainer = document.getElementById('serial-key-groups');
+                    if (!groupsContainer) return;
+
                     const allSeries = data.series;
                     const allKeys = data.keys;
-    
-                    if (!allSeries || !allKeys) {
-                        console.error("エラー: JSONデータ内に 'series' または 'keys' オブジェクトが存在しません。");
-                        return;
+                    const groupedKeys = {};
+                    for (const serialKey in allKeys) {
+                        const keyInfo = allKeys[serialKey];
+                        const group = keyInfo.groupName || 'その他';
+                        if (!groupedKeys[group]) { groupedKeys[group] = []; }
+                        keyInfo.id = serialKey;
+                        groupedKeys[group].push(keyInfo);
                     }
 
-                const groupedKeys = {};
-                for (const serialKey in allKeys) {
-                    const keyInfo = allKeys[serialKey];
-                    const group = keyInfo.groupName || 'その他';
-                    if (!groupedKeys[group]) {
-                        groupedKeys[group] = [];
-                    }
-                    keyInfo.id = serialKey;
-                    groupedKeys[group].push(keyInfo);
-                }
-                console.log("5. データをグループ化しました:", groupedKeys);
-
-                let htmlContent = '';
-
+                    let htmlContent = '';
                     for (const groupName in groupedKeys) {
                         htmlContent += `<div class="group-container">`;
                         htmlContent += `<h3 class="group-title">${groupName}</h3>`;
-                        htmlContent += `<div class="key-list-container">`;
+                        htmlContent += `<div class="key-list-container"><div class="key-list-inner">`; // 内側のラッパーを追加
 
                         groupedKeys[groupName].forEach(keyInfo => {
                             let seriesListHtml = '<ul>';
@@ -247,23 +252,22 @@
                                 </div>
                             `;
                         });
-                        htmlContent += `</div></div>`; // .key-list-containerと.group-containerを閉じる
+                        htmlContent += `</div></div></div>`;
                     }
-
-                    if (htmlContent === '') {
-                        console.warn("警告: 生成されたHTMLコンテンツが空です。groupedKeysオブジェクトを確認してください。");
-                    } else {
-                        console.log("6. HTMLの生成完了。ページに挿入します。");
-                    }
+                    groupsContainer.innerHTML = htmlContent;
                     
-                    accordionContainer.innerHTML = htmlContent;
-                    setupGroupToggles();
-                    setupKeyAccordions();
-                    console.log("7. セットアップ完了。");
+                    // イベントリスナーの設定
+                    document.querySelectorAll('.group-title').forEach(title => {
+                        title.addEventListener('click', () => title.classList.toggle('active'));
+                    });
+                    document.querySelectorAll('.accordion-title').forEach(title => {
+                        title.addEventListener('click', (event) => {
+                            event.stopPropagation();
+                            title.parentElement.classList.toggle('active');
+                        });
+                    });
                 })
-                .catch(error => {
-                    console.error('最終的なエラー:', error);
-                });
+                .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
         });
 
 
