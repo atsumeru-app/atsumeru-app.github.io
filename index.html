@@ -300,6 +300,10 @@
                             item.classList.add('active');
                             content.style.maxHeight = content.scrollHeight + 'px';
                         }
+                        
+                        if (parentKeyList && parentKeyList.style.maxHeight) {
+                            parentKeyList.style.maxHeight = parentKeyList.scrollHeight + 'px';
+                        }
                     });
                 }
             });
