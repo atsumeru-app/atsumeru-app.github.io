@@ -188,9 +188,7 @@
     
                     const allSeries = data.series; // 全シリーズのデータを取得
                     const allKeys = data.keys;     // 全キーのデータを取得
-                    
-                    let htmlContent = '';
-    
+                        
                     // 1. キーをグループごとにまとめる
                     const groupedKeys = {};
                     for (const serialKey in allKeys) {
@@ -245,7 +243,6 @@
         });
     
         function setupAccordion() {
-            // ... この関数の中身は変更なし ...
             const accordionItems = document.querySelectorAll('#serial-key-accordion .accordion-item');
             accordionItems.forEach(item => {
                 const title = item.querySelector('.accordion-title');
