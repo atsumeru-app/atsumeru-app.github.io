@@ -178,7 +178,7 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('serial_keys.json')
+        fetch('https://gist.githubusercontent.com/atsumeru-app/d6bf0f55160a04e6c80c2f74371ac2e4/raw/atsumeru_serialkeys.json')
             .then(response => response.json())
             .then(data => {
                 const accordionContainer = document.getElementById('serial-key-accordion');
