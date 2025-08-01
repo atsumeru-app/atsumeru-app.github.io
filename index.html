@@ -172,29 +172,10 @@
     <footer>
         <p>&copy; 2025 Asahi Mizutani. All Rights Reserved.</p>
     </footer>
-
-    <script>
-        const accordionItems = document.querySelectorAll('.accordion-item');
-        accordionItems.forEach(item => {
-            const title = item.querySelector('.accordion-title');
-            const content = item.querySelector('.accordion-content');
-            title.addEventListener('click', () => {
-                const isActive = item.classList.contains('active');
-                accordionItems.forEach(i => {
-                    i.classList.remove('active');
-                    i.querySelector('.accordion-content').style.maxHeight = null;
-                });
-                if (!isActive) {
-                    item.classList.add('active');
-                    content.style.maxHeight = content.scrollHeight + 'px';
-                }
-            });
-        });
-    </script>
-
+    
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('https://gist.githubusercontent.com/atsumeru-app/d6bf0f55160a04e6c80c2f74371ac2e4/raw/atsumeru_serialkeys.json')
+            fetch('serial_keys.json')
                 .then(response => response.json())
                 .then(data => {
                     const accordionContainer = document.getElementById('serial-key-accordion');
