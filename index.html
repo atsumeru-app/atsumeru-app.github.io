@@ -177,48 +177,56 @@
     </script>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        fetch('https://gist.githubusercontent.com/atsumeru-app/d6bf0f55160a04e6c80c2f74371ac2e4/raw/atsumeru_serialkeys.json')
-            .then(response => response.json())
-            .then(data => {
-                const accordionContainer = document.getElementById('serial-key-accordion');
-                if (!accordionContainer) return;
-
-                let htmlContent = '';
-
-                // JSONオブジェクトのキー（これがシリアルキーになる）をループ
-                for (const serialKey in data) {
-                    const seriesArray = data[serialKey];
-
-                    // 各キーに含まれるシリーズの配列をループ
-                    seriesArray.forEach(series => {
-                        // タグをHTML要素に変換
-                        const tagsHtml = series.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('https://gist.githubusercontent.com/atsumeru-app/d6bf0f55160a04e6c80c2f74371ac2e4/raw/atsumeru_serialkeys.json')
+                .then(response => response.json())
+                .then(data => {
+                    const accordionContainer = document.getElementById('serial-key-accordion');
+                    if (!accordionContainer) return;
+    
+                    const allSeries = data.series; // 全シリーズのデータを取得
+                    const allKeys = data.keys;     // 全キーのデータを取得
+                    
+                    let htmlContent = '';
+    
+                    // キーのオブジェクトをループ
+                    for (const serialKey in allKeys) {
+                        const keyInfo = allKeys[serialKey];
                         
+                        // キーに含まれるシリーズ情報のHTMLリストを作成
+                        let seriesListHtml = '<ul>';
+                        keyInfo.series_ids.forEach(seriesId => {
+                            const seriesData = allSeries[seriesId];
+                            if (seriesData) {
+                                seriesListHtml += `<li><strong>${seriesData.seriesName}</strong> (${seriesData.members.length}名 / ${seriesData.kinds.length}種)</li>`;
+                            }
+                        });
+                        seriesListHtml += '</ul>';
+    
+                        // アコーディオンのHTMLを生成
                         htmlContent += `
                             <div class="accordion-item">
-                                <div class="accordion-title">${series.seriesName}</div>
+                                <div class="accordion-title">${keyInfo.title}</div>
                                 <div class="accordion-content">
                                     <div class="accordion-content-inner">
-                                        <p><strong>対象メンバー:</strong> ${series.members.length}名</p>
-                                        <p><strong>種類:</strong> ${series.kinds.join(', ')}</p>
-                                        <p><strong>タグ:</strong> ${tagsHtml || 'なし'}</p>
+                                        <p><strong>このキーで入手できるシリーズ:</strong></p>
+                                        ${seriesListHtml}
                                         <hr>
                                         <p><strong>シリアルキー:</strong> <code class="serial-key-code">${serialKey}</code></p>
                                     </div>
                                 </div>
                             </div>
                         `;
-                    });
-                }
-
-                accordionContainer.innerHTML = htmlContent;
-                setupAccordion();
-            })
-            .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
+                    }
+    
+                    accordionContainer.innerHTML = htmlContent;
+                    setupAccordion();
+                })
+                .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
         });
     
         function setupAccordion() {
+            // ... この関数の中身は変更なし ...
             const accordionItems = document.querySelectorAll('#serial-key-accordion .accordion-item');
             accordionItems.forEach(item => {
                 const title = item.querySelector('.accordion-title');
@@ -226,12 +234,10 @@
                     title.addEventListener('click', () => {
                         const content = item.querySelector('.accordion-content');
                         const isActive = item.classList.contains('active');
-    
                         document.querySelectorAll('#serial-key-accordion .accordion-item').forEach(i => {
                             i.classList.remove('active');
                             i.querySelector('.accordion-content').style.maxHeight = null;
                         });
-    
                         if (!isActive) {
                             item.classList.add('active');
                             content.style.maxHeight = content.scrollHeight + 'px';
@@ -241,6 +247,6 @@
             });
         }
     </script>
-    
+
 </body>
 </html>
