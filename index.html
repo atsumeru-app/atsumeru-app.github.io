@@ -175,27 +175,49 @@
     
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            fetch('serial_keys.json')
-                .then(response => response.json())
-                .then(data => {
-                    const accordionContainer = document.getElementById('serial-key-accordion');
-                    if (!accordionContainer) return;
+            console.log("1. ページの読み込み完了。JSONの取得を開始します。");
     
-                    const allSeries = data.series; // 全シリーズのデータを取得
-                    const allKeys = data.keys;     // 全キーのデータを取得
-                        
-                    const groupedKeys = {};
-                    for (const serialKey in allKeys) {
-                        const keyInfo = allKeys[serialKey];
-                        const group = keyInfo.groupName || 'その他';
-                        if (!groupedKeys[group]) {
-                            groupedKeys[group] = [];
-                        }
-                        keyInfo.id = serialKey;
-                        groupedKeys[group].push(keyInfo);
+            fetch('serial_keys.json')
+                .then(response => {
+                    console.log("2. fetch成功。レスポンス:", response);
+                    if (!response.ok) {
+                        console.error("ネットワークレスポンスが異常です:", response.statusText);
+                        return Promise.reject('ネットワークエラー');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log("3. JSONの解析成功。取得したデータ:", data);
+    
+                    const accordionContainer = document.getElementById('serial-key-groups');
+                    if (!accordionContainer) {
+                        console.error("エラー: ID 'serial-key-groups' の要素が見つかりません。");
+                        return;
+                    }
+                    console.log("4. HTMLのコンテナ要素を発見。");
+    
+                    const allSeries = data.series;
+                    const allKeys = data.keys;
+    
+                    if (!allSeries || !allKeys) {
+                        console.error("エラー: JSONデータ内に 'series' または 'keys' オブジェクトが存在しません。");
+                        return;
                     }
 
-                    let htmlContent = '';
+                const groupedKeys = {};
+                for (const serialKey in allKeys) {
+                    const keyInfo = allKeys[serialKey];
+                    const group = keyInfo.groupName || 'その他';
+                    if (!groupedKeys[group]) {
+                        groupedKeys[group] = [];
+                    }
+                    keyInfo.id = serialKey;
+                    groupedKeys[group].push(keyInfo);
+                }
+                console.log("5. データをグループ化しました:", groupedKeys);
+
+                let htmlContent = '';
+
                     for (const groupName in groupedKeys) {
                         htmlContent += `<div class="group-container">`;
                         htmlContent += `<h3 class="group-title">${groupName}</h3>`;
@@ -228,12 +250,22 @@
                         htmlContent += `</div></div>`; // .key-list-containerと.group-containerを閉じる
                     }
 
-                    groupsContainer.innerHTML = htmlContent;
+                    if (htmlContent === '') {
+                        console.warn("警告: 生成されたHTMLコンテンツが空です。groupedKeysオブジェクトを確認してください。");
+                    } else {
+                        console.log("6. HTMLの生成完了。ページに挿入します。");
+                    }
+                    
+                    accordionContainer.innerHTML = htmlContent;
                     setupGroupToggles();
                     setupKeyAccordions();
+                    console.log("7. セットアップ完了。");
                 })
-                .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
+                .catch(error => {
+                    console.error('最終的なエラー:', error);
+                });
         });
+
 
         // グループの開閉機能を設定する関数
         function setupGroupToggles() {
