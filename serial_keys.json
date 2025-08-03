@@ -40,40 +40,47 @@
   
   
   "keys": {
+    "set25arn": {
+      "groupName": "櫻坂46",
+      "title": "4thアニラ＆ネクタイコーデ セット",
+      "series_ids": ["4thanv", "nektie"],
+      "year": 2025
+    },
     "yukata25": {
       "groupName": "櫻坂46",
       "title": "2025年 浴衣",
-      "series_ids": ["yukata25"]
+      "series_ids": ["yukata25"],
+      "year": 2025
     },
     "4tharndome": {
       "groupName": "櫻坂46",
       "title": "「4th ARENA TOUR IN 東京ドーム」ライブ衣装",
-      "series_ids": ["4tharndome"]
+      "series_ids": ["4tharndome"],
+      "year": 2025
     },
     "24sumfes": {
       "groupName": "櫻坂46",
       "title": "2024年 夏フェス衣装",
-      "series_ids": ["24sumfes"]
+      "series_ids": ["24sumfes"],
+      "year": 2025
     },
     "4thanv": {
       "groupName": "櫻坂46",
       "title": "「4th YEAR ANNIVERSARY LIVE」ライブ衣装",
-      "series_ids": ["4thanv"]
+      "series_ids": ["4thanv"],
+      "year": 2025
     },
     "4tharn": {
       "groupName": "櫻坂46",
       "title": "「4th ARENA TOUR」ライブ衣装",
-      "series_ids": ["4tharn"]
+      "series_ids": ["4tharn"],
+      "year": 2025
     },
     "nektie": {
       "groupName": "櫻坂46",
       "title": "ネクタイコーデ",
-      "series_ids": ["nektie"]
-    },
-    "set25arn": {
-      "groupName": "櫻坂46",
-      "title": "4thアニラ＆ネクタイコーデ セット",
-      "series_ids": ["4thanv", "nektie"]
+      "series_ids": ["nektie"],
+      "year": 2025
     }
   }
 }
