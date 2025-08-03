@@ -95,9 +95,15 @@
       "year": 2025
     },
     "2025-06-2": {
-      "groupname": "乃木坂46",
+      "groupName": "乃木坂46",
       "title": "浴衣（2025.July-Ⅱ）",
       "series_ids": ["2025-06-2"],
+      "year": 2025
+    },
+    "tourT25miyagi": {
+      "groupName": "乃木坂46",
+      "title": "真夏の全国ツアー2025 Tシャツ 宮城ver.",
+      "series_ids": ["tourT25miyagi"],
       "year": 2025
     }
   }
