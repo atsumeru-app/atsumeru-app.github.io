@@ -201,7 +201,7 @@
             fetch('serial_keys.json')
                 .then(response => response.json())
                 .then(data => {
-                    const rootContainer = document.getElementById('serial-key-root');
+                    const rootContainer = document.getElementById('serial-key-groups');
                     if (!rootContainer) return;
 
                     // 1. データを グループ > 年 > キー配列 の3階層に整理
