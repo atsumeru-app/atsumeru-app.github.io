@@ -29,57 +29,51 @@
         .feature-item p { font-size: 0.9em; color: #555; text-align: left;}
         .feature-item img { width: 100%; border-radius: 8px; border: 1px solid #ddd; margin-top: 15px; }
         
-        /* アコーディオン（シリアルキー） */
+        /* --- Level 1: グループ --- */
         .group-title {
-            font-size: 1.6em;
-            margin-top: 20px;
-            margin-bottom: 0;
-            padding: 20px;
-            border: 1px solid #ddd;
-            cursor: pointer;
-            position: relative;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            transition: border-radius 0.4s;
-        }
-        .group-title.active {
-            border-radius: 8px 8px 0 0;
+            font-size: 1.6em; margin-top: 20px; margin-bottom: 0; padding: 20px;
+            border: 1px solid #ccc; border-radius: 8px; cursor: pointer; position: relative;
+            background-color: #343a40; color: white;
         }
         .group-title:first-of-type { margin-top: 0; }
-        .group-title::after { content: '▼'; font-size: 0.8em; position: absolute; right: 20px; transition: transform 0.3s; }
+        .group-title::after { content: '▼'; position: absolute; right: 20px; transition: transform 0.3s; }
         .group-title.active::after { transform: rotate(180deg); }
 
-        .key-list-container {
-            display: grid;
-            grid-template-rows: 0fr; /* 初期状態ではコンテンツの高さを0にする */
-            transition: grid-template-rows 0.4s ease-out;
-            border-right: 1px solid #ddd;
-            border-left: 1px solid #ddd;
+        .year-list-container {
+            display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease-out;
         }
-        .group-title.active + .key-list-container {
-            grid-template-rows: 1fr; /* activeクラスがつくとコンテンツの高さに広がる */
+        .group-title.active + .year-list-container {
+            grid-template-rows: 1fr;
         }
-        .key-list-inner {
-             overflow: hidden;
+        .year-list-inner { overflow: hidden; padding: 10px 0 10px 20px; }
+        
+        /* --- Level 2: 年 --- */
+        .year-title {
+            font-size: 1.3em; margin-top: 10px; margin-bottom: 0; padding: 15px;
+            border: 1px solid #ddd; border-radius: 8px; cursor: pointer; position: relative;
+            background-color: #f8f9fa;
         }
+        .year-title::after { content: '▼'; font-size: 0.8em; position: absolute; right: 20px; transition: transform 0.3s; }
+        .year-title.active::after { transform: rotate(180deg); }
 
+        .key-list-container {
+            display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.4s ease-out;
+        }
+        .year-title.active + .key-list-container {
+            grid-template-rows: 1fr;
+        }
+        .key-list-inner { overflow: hidden; padding: 10px 0 10px 20px; }
+
+        /* --- Level 3: キー（シリーズ） --- */
         .accordion-item { border-top: 1px solid #eee; }
-        .accordion-title { padding: 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; background: #fff; }
+        .accordion-item:first-child { border-top: none; }
+        .accordion-title { padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 1.1em; font-weight: bold; background: #fff; }
         .accordion-title::after { content: '›'; font-size: 1.5em; transition: transform 0.3s; }
         .accordion-item.active .accordion-title::after { transform: rotate(90deg); }
 
-        .accordion-content {
-            display: grid;
-            grid-template-rows: 0fr; /* こちらも同じ仕組み */
-            transition: grid-template-rows 0.3s ease-out;
-        }
-        .accordion-item.active .accordion-content {
-            grid-template-rows: 1fr;
-        }
-        .accordion-content-inner {
-            overflow: hidden;
-            padding: 20px;
-        }
+        .accordion-content { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.3s ease-out; }
+        .accordion-item.active .accordion-content { grid-template-rows: 1fr; }
+        .accordion-content-inner { overflow: hidden; padding: 20px; background-color: #f9f9f9; }
         
         .serial-key-code { background-color: #e9ecef; padding: 5px 10px; border-radius: 4px; font-family: monospace; }
         .tag { display: inline-block; background-color: #6c757d; color: white; padding: 2px 8px; font-size: 0.8em; border-radius: 10px; margin-right: 5px; }
@@ -207,108 +201,87 @@
             fetch('serial_keys.json')
                 .then(response => response.json())
                 .then(data => {
-                    const groupsContainer = document.getElementById('serial-key-groups');
-                    if (!groupsContainer) return;
+                    const rootContainer = document.getElementById('serial-key-root');
+                    if (!rootContainer) return;
 
-                    const allSeries = data.series;
-                    const allKeys = data.keys;
-                    const groupedKeys = {};
-                    for (const serialKey in allKeys) {
-                        const keyInfo = allKeys[serialKey];
+                    // 1. データを グループ > 年 > キー配列 の3階層に整理
+                    const nestedData = {};
+                    for (const serialKey in data.keys) {
+                        const keyInfo = data.keys[serialKey];
                         const group = keyInfo.groupName || 'その他';
-                        if (!groupedKeys[group]) { groupedKeys[group] = []; }
+                        const year = keyInfo.year || '未分類';
+                        
+                        if (!nestedData[group]) nestedData[group] = {};
+                        if (!nestedData[group][year]) nestedData[group][year] = [];
+                        
                         keyInfo.id = serialKey;
-                        groupedKeys[group].push(keyInfo);
+                        nestedData[group][year].push(keyInfo);
                     }
 
+                    // 2. 3階層のHTMLを生成
                     let htmlContent = '';
-                    for (const groupName in groupedKeys) {
+                    for (const groupName in nestedData) {
                         htmlContent += `<div class="group-container">`;
                         htmlContent += `<h3 class="group-title">${groupName}</h3>`;
-                        htmlContent += `<div class="key-list-container"><div class="key-list-inner">`; // 内側のラッパーを追加
+                        htmlContent += `<div class="year-list-container"><div class="year-list-inner">`;
 
-                        groupedKeys[groupName].forEach(keyInfo => {
-                            let seriesListHtml = '<ul>';
-                            keyInfo.series_ids.forEach(seriesId => {
-                                const seriesData = allSeries[seriesId];
-                                if (seriesData) {
-                                    seriesListHtml += `<li><strong>${seriesData.seriesName}</strong></li>`;
-                                }
-                            });
-                            seriesListHtml += '</ul>';
+                        for (const year in nestedData[groupName]) {
+                            htmlContent += `<div class="year-container">`;
+                            htmlContent += `<h4 class="year-title">${year}年</h4>`; // h4に変更
+                            htmlContent += `<div class="key-list-container"><div class="key-list-inner">`;
 
-                            htmlContent += `
-                                <div class="accordion-item">
-                                    <div class="accordion-title">${keyInfo.title}</div>
-                                    <div class="accordion-content">
-                                        <div class="accordion-content-inner">
-                                            <p><strong>このキーで入手できるシリーズ:</strong></p>
-                                            ${seriesListHtml}
-                                            <hr>
-                                            <p><strong>シリアルキー:</strong> <code class="serial-key-code">${keyInfo.id}</code></p>
+                            nestedData[groupName][year].forEach(keyInfo => {
+                                let seriesListHtml = '<ul>';
+                                keyInfo.series_ids.forEach(seriesId => {
+                                    const seriesData = data.series[seriesId];
+                                    if (seriesData) seriesListHtml += `<li><strong>${seriesData.seriesName}</strong></li>`;
+                                });
+                                seriesListHtml += '</ul>';
+
+                                htmlContent += `
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">${keyInfo.title}</div>
+                                        <div class="accordion-content">
+                                            <div class="accordion-content-inner">
+                                                <p><strong>入手シリーズ:</strong></p>${seriesListHtml}<hr>
+                                                <p><strong>シリアルキー:</strong> <code class="serial-key-code">${keyInfo.id}</code></p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            `;
-                        });
-                        htmlContent += `</div></div></div>`;
+                                    </div>`;
+                            });
+                            htmlContent += `</div></div></div>`; // key-list, year-container
+                        }
+                        htmlContent += `</div></div></div>`; // year-list, group-container
                     }
-                    groupsContainer.innerHTML = htmlContent;
+
+                    rootContainer.innerHTML = htmlContent;
                     
-                    // イベントリスナーの設定
-                    document.querySelectorAll('.group-title').forEach(title => {
-                        title.addEventListener('click', () => title.classList.toggle('active'));
-                    });
-                    document.querySelectorAll('.accordion-title').forEach(title => {
-                        title.addEventListener('click', (event) => {
-                            event.stopPropagation();
-                            title.parentElement.classList.toggle('active');
-                        });
-                    });
+                    // 3. 3階層すべてに開閉イベントを設定
+                    setupEventListeners();
                 })
                 .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
         });
 
-
-        // グループの開閉機能を設定する関数
-        function setupGroupToggles() {
-            const groupTitles = document.querySelectorAll('.group-title');
-            groupTitles.forEach(title => {
-                title.addEventListener('click', function() {
-                    this.classList.toggle('active');
-                    const keyList = this.nextElementSibling;
-                    if (keyList.style.maxHeight) {
-                        keyList.style.maxHeight = null;
-                    } else {
-                        keyList.style.maxHeight = keyList.scrollHeight + 'px';
-                    }
+        function setupEventListeners() {
+            // Level 1: グループの開閉
+            document.querySelectorAll('.group-title').forEach(title => {
+                title.addEventListener('click', (e) => {
+                    e.currentTarget.classList.toggle('active');
                 });
             });
-        }
-
-        // キー（アコーディオン）の開閉機能を設定する関数
-        function setupKeyAccordions() {
-            const accordionItems = document.querySelectorAll('.accordion-item');
-            accordionItems.forEach(item => {
-                const title = item.querySelector('.accordion-title');
-                if (title) {
-                    title.addEventListener('click', (event) => {
-                        event.stopPropagation(); // 親のグループ開閉が反応しないようにする
-                        const content = item.querySelector('.accordion-content');
-                        
-                        if (item.classList.contains('active')) {
-                            item.classList.remove('active');
-                            content.style.maxHeight = null;
-                        } else {
-                            item.classList.add('active');
-                            content.style.maxHeight = content.scrollHeight + 'px';
-                        }
-                        
-                        if (parentKeyList && parentKeyList.style.maxHeight) {
-                            parentKeyList.style.maxHeight = parentKeyList.scrollHeight + 'px';
-                        }
-                    });
-                }
+            // Level 2: 年の開閉
+            document.querySelectorAll('.year-title').forEach(title => {
+                title.addEventListener('click', (e) => {
+                    e.stopPropagation(); // 親(グループ)のクリックイベントを抑制
+                    e.currentTarget.classList.toggle('active');
+                });
+            });
+            // Level 3: キーの開閉
+            document.querySelectorAll('.accordion-title').forEach(title => {
+                title.addEventListener('click', (e) => {
+                    e.stopPropagation(); // 親(年)のクリックイベントを抑制
+                    e.currentTarget.parentElement.classList.toggle('active');
+                });
             });
         }
     </script>
