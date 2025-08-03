@@ -197,94 +197,102 @@
     </footer>
     
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('serial_keys.json')
-                .then(response => response.json())
-                .then(data => {
-                    const rootContainer = document.getElementById('serial-key-groups');
-                    if (!rootContainer) return;
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('serial_keys.json')
+            .then(response => response.json())
+            .then(data => {
+                const rootContainer = document.getElementById('serial-key-groups');
+                if (!rootContainer) return;
 
-                    // 1. データを グループ > 年 > キー配列 の3階層に整理
-                    const nestedData = {};
-                    for (const serialKey in data.keys) {
-                        const keyInfo = data.keys[serialKey];
-                        const group = keyInfo.groupName || 'その他';
-                        const year = keyInfo.year || '未分類';
-                        
-                        if (!nestedData[group]) nestedData[group] = {};
-                        if (!nestedData[group][year]) nestedData[group][year] = [];
-                        
-                        keyInfo.id = serialKey;
-                        nestedData[group][year].push(keyInfo);
-                    }
+                const allSeries = data.series;
+                const allKeys = data.keys;
 
-                    // 2. 3階層のHTMLを生成
-                    let htmlContent = '';
-                    for (const groupName in nestedData) {
-                        htmlContent += `<div class="group-container">`;
-                        htmlContent += `<h3 class="group-title">${groupName}</h3>`;
-                        htmlContent += `<div class="year-list-container"><div class="year-list-inner">`;
+                const nestedData = {};
+                for (const serialKey in allKeys) {
+                    const keyInfo = allKeys[serialKey];
+                    const group = keyInfo.groupName || 'その他';
+                    const year = keyInfo.year || '未分類';
+                    if (!nestedData[group]) nestedData[group] = {};
+                    if (!nestedData[group][year]) nestedData[group][year] = [];
+                    keyInfo.id = serialKey;
+                    nestedData[group][year].push(keyInfo);
+                }
 
-                        for (const year in nestedData[groupName]) {
-                            htmlContent += `<div class="year-container">`;
-                            htmlContent += `<h4 class="year-title">${year}年</h4>`; // h4に変更
-                            htmlContent += `<div class="key-list-container"><div class="key-list-inner">`;
-
-                            nestedData[groupName][year].forEach(keyInfo => {
+                let htmlContent = '';
+                for (const groupName in nestedData) {
+                    htmlContent += `<div class="group-container"><h3 class="group-title">${groupName}</h3><div class="year-list-container"><div class="year-list-inner">`;
+                    for (const year in nestedData[groupName]) {
+                        htmlContent += `<div class="year-container"><h4 class="year-title">${year}年</h4><div class="key-list-container"><div class="key-list-inner">`;
+                        nestedData[groupName][year].forEach(keyInfo => {
+                            
+                            // ▼▼▼ ここからが変更箇所 ▼▼▼
+                            let detailsHtml = '';
+                            // 単品かセットかで表示を分岐
+                            if (keyInfo.series_ids.length === 1) {
+                                // --- 単品の場合の詳細表示 ---
+                                const seriesId = keyInfo.series_ids[0];
+                                const seriesData = allSeries[seriesId];
+                                if (seriesData) {
+                                    const tagsHtml = seriesData.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ');
+                                    detailsHtml = `
+                                        <p><strong>種類:</strong> ${seriesData.kinds.join(', ')}</p>
+                                        <p><strong>対象メンバー:</strong> ${seriesData.members.join(', ')}</p>
+                                        <p><strong>タグ:</strong> ${tagsHtml || 'なし'}</p>
+                                    `;
+                                }
+                            } else {
+                                // --- セットの場合のシリーズ一覧表示 ---
                                 let seriesListHtml = '<ul>';
                                 keyInfo.series_ids.forEach(seriesId => {
-                                    const seriesData = data.series[seriesId];
-                                    if (seriesData) seriesListHtml += `<li><strong>${seriesData.seriesName}</strong></li>`;
+                                    const seriesData = allSeries[seriesId];
+                                    if (seriesData) {
+                                        seriesListHtml += `<li><strong>${seriesData.seriesName}</strong></li>`;
+                                    }
                                 });
                                 seriesListHtml += '</ul>';
+                                detailsHtml = `<p><strong>このキーで入手できるシリーズ:</strong></p>${seriesListHtml}`;
+                            }
+                            // ▲▲▲ ここまでが変更箇所 ▲▲▲
 
-                                htmlContent += `
-                                    <div class="accordion-item">
-                                        <div class="accordion-title">${keyInfo.title}</div>
-                                        <div class="accordion-content">
-                                            <div class="accordion-content-inner">
-                                                <p><strong>入手シリーズ:</strong></p>${seriesListHtml}<hr>
-                                                <p><strong>シリアルキー:</strong> <code class="serial-key-code">${keyInfo.id}</code></p>
-                                            </div>
+                            htmlContent += `
+                                <div class="accordion-item">
+                                    <div class="accordion-title">${keyInfo.title}</div>
+                                    <div class="accordion-content">
+                                        <div class="accordion-content-inner">
+                                            ${detailsHtml}
+                                            <hr>
+                                            <p><strong>シリアルキー:</strong> <code class="serial-key-code">${keyInfo.id}</code></p>
                                         </div>
-                                    </div>`;
-                            });
-                            htmlContent += `</div></div></div>`; // key-list, year-container
-                        }
-                        htmlContent += `</div></div></div>`; // year-list, group-container
+                                    </div>
+                                </div>`;
+                        });
+                        htmlContent += `</div></div></div>`;
                     }
+                    htmlContent += `</div></div></div>`;
+                }
+                rootContainer.innerHTML = htmlContent;
+                setupEventListeners();
+            })
+            .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
+    });
 
-                    rootContainer.innerHTML = htmlContent;
-                    
-                    // 3. 3階層すべてに開閉イベントを設定
-                    setupEventListeners();
-                })
-                .catch(error => console.error('シリアルキーの読み込みに失敗しました:', error));
+    // setupEventListeners関数は変更なし
+    function setupEventListeners() {
+        document.querySelectorAll('.group-title, .year-title').forEach(title => {
+            title.addEventListener('click', (e) => {
+                e.stopPropagation();
+                e.currentTarget.classList.toggle('active');
+            });
         });
+        document.querySelectorAll('.accordion-title').forEach(title => {
+            title.addEventListener('click', (e) => {
+                e.stopPropagation();
+                e.currentTarget.parentElement.classList.toggle('active');
+            });
+        });
+    }
+</script>
 
-        function setupEventListeners() {
-            // Level 1: グループの開閉
-            document.querySelectorAll('.group-title').forEach(title => {
-                title.addEventListener('click', (e) => {
-                    e.currentTarget.classList.toggle('active');
-                });
-            });
-            // Level 2: 年の開閉
-            document.querySelectorAll('.year-title').forEach(title => {
-                title.addEventListener('click', (e) => {
-                    e.stopPropagation(); // 親(グループ)のクリックイベントを抑制
-                    e.currentTarget.classList.toggle('active');
-                });
-            });
-            // Level 3: キーの開閉
-            document.querySelectorAll('.accordion-title').forEach(title => {
-                title.addEventListener('click', (e) => {
-                    e.stopPropagation(); // 親(年)のクリックイベントを抑制
-                    e.currentTarget.parentElement.classList.toggle('active');
-                });
-            });
-        }
-    </script>
 
 </body>
 </html>
