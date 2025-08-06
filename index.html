@@ -20,7 +20,11 @@
         .app-icon { width: 80px; height: 80px; border-radius: 18px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
         header h1 { font-size: 2.8em; margin: 0; }
         header p { font-size: 1.2em; color: #6c757d; margin-top: 10px; }
-        .download-button { display: inline-block; background-color: #007bff; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 20px; }
+        .header-buttons { display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 25px; flex-wrap: wrap; }
+        .header-button { display: inline-block; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        .appstore-btn { background-color: #007bff; }
+        .serialkey-btn { background-color: #17a2b8; }
+        .x-account-btn { background-color: #000000; }
     
         /* 特徴セクション */
         .features { display: flex; justify-content: center; text-align: center; flex-wrap: wrap; gap: 30px; align-items: flex-start; }
@@ -103,7 +107,11 @@
             <h1>atsumeru</h1>
         </div>
         <p>ダブルタップで簡単登録！直感的で簡単でありつつ柔軟な操作を実現！不便だったグッズの集計・管理を改革します！</p>
-        <a href="https://apps.apple.com/us/app/atsumeru/id6748431704" class="download-button">App Storeでダウンロード</a>
+        <div class="header-buttons">
+            <a href="https://apps.apple.com/us/app/atsumeru/id6748431704" class="header-button appstore-btn">App Store</a>
+            <a href="serial_keys.html" class="header-button serialkey-btn">シリアルキー一覧</a>
+            <a href="https://x.com/your_account_id" class="header-button x-account-btn">公式Xアカウント</a>
+        </div>    
     </header>
 
     <div class="container">
