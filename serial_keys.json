@@ -1074,1612 +1074,1612 @@
   
   
   "keys": {
-  "set20sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2020）",
-    "series_ids": [
-      "encnobody",
-      "MVnobody",
-      "santa"
-    ],
-    "year": 2020
-  },
-  "set21sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2021）",
-    "series_ids": [
-      "21hurisode",
-      "MVnobody2",
-      "MVnazekoi",
-      "MVbuddies",
-      "encban",
-      "nobodylive",
-      "20live",
-      "lastlive",
-      "lastlive2",
-      "1backs",
-      "1backs2",
-      "MVban",
-      "MVgukota",
-      "MVomosabi",
-      "banlive",
-      "21yukata",
-      "21sumshihuku",
-      "encnagare",
-      "MVnagare",
-      "MVdedend",
-      "MVmugon",
-      "21santa",
-      "MVnagare2",
-      "MVmugon2"
-    ],
-    "year": 2021
-  },
-  "set22sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2022）",
-    "series_ids": [
-      "1arn",
-      "22hurisode",
-      "jacnagare",
-      "encsamidare",
-      "MVsamidare",
-      "22sprshihuku",
-      "patissier",
-      "MVdilemma",
-      "MVsamidare2",
-      "MVshakan",
-      "21wfes",
-      "22camp",
-      "risagurad",
-      "encasyou",
-      "22yukata",
-      "MVmasatsu",
-      "concent",
-      "jamabe",
-      "ningyo",
-      "22falshihiku",
-      "22halowen",
-      "22santa",
-      "22wfes",
-      "22pajama"
-    ],
-    "year": 2022
-  },
-  "set23sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2023）",
-    "series_ids": [
-      "23hurisode",
-      "usamimi",
-      "encsakura",
-      "MVnatsuchika",
-      "MVnatsuchika2",
-      "3ban",
-      "23winshihuku",
-      "2anv",
-      "apron",
-      "MVsakura",
-      "2arn",
-      "3booklet",
-      "suit",
-      "MVcool",
-      "MVsakura2",
-      "2arn2",
-      "color",
-      "encstov",
-      "3arn",
-      "roman",
-      "jacstov",
-      "MVstov",
-      "MVseijaku",
-      "sumdres",
-      "MVdrone",
-      "22wfes2",
-      "denim",
-      "23halowen",
-      "encshonin",
-      "23santa",
-      "3arn2",
-      "23sumfes",
-      "3nobody",
-      "23dokusho",
-      "24hurisode",
-      "22yearend"
-    ],
-    "year": 2023
-  },
-  "set24sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2024）",
-    "series_ids": [
-      "3backs",
-      "jacshonin",
-      "MVshonin",
-      "MVmamori",
-      "ouchi",
-      "MVsukima",
-      "stovlive",
-      "jump",
-      "encikumodo",
-      "3arn3",
-      "3anv2",
-      "jacikumodo",
-      "24sprshihuku",
-      "MVikumodo",
-      "MVnanlove",
-      "7backs",
-      "MVabura",
-      "yuigrad",
-      "colordenim",
-      "24yukata",
-      "yuigrad2",
-      "23arn4",
-      "encjgjt",
-      "mugiwara",
-      "jacjgjt",
-      "MVjgjt",
-      "8backs",
-      "MVaisi",
-      "MVaisi2",
-      "tshirt",
-      "MVhkkm",
-      "4arn",
-      "yshirt",
-      "24halowen",
-      "knit",
-      "enciwtc",
-      "24santa",
-      "4arndomeop",
-      "doubutsu",
-      "MVboku",
-      "9backs",
-      "scarf",
-      "jaciwtc",
-      "MViwtc",
-      "MVhonshitsu"
-    ],
-    "year": 2024
-  },
-  "set25sakura":{
-    "groupName": "櫻坂４６",
-    "title": "櫻坂４６セット（2025）",
-    "series_ids": [
-      "winshihuku",
-      "23yearend",
-      "25hurisode",
-      "inumimi",
-      "encudagawa",
-      "jacudagawa",
-      "MVudagawa",
-      "MVnight",
-      "MVnight2",
-      "MVnospe",
-      "24sumfes",
-      "mode",
-      "4arnop",
-      "4anv",
-      "4arn2",
-      "nektie",
-      "encadic",
-      "MVadic",
-      "3liveop",
-      "leather",
-      "4debut",
-      "fst",
-      "shihuku",
-      "encmob",
-      "25yukata",
-      "4arndome",
-      "24sumfes2",
-      "MVparseley",
-      "10backs",
-      "11backs",
-      "polo",
-      "classic",
-      "12uni",
-      "jacmob",
-      "MVmob",
-      "MVmob2",
-      "MVsindahuri",
-      "MVshindahuri2",
-      "2025-06-2",
-      "tourT25miyagi"
-    ],
-    "year": 2025
-  },
-  "encnobody": {
-    "groupName": "櫻坂４６",
-    "title": "「Nobody's fault」封入",
-    "series_ids": [
-      "encnobody"
-    ],
-    "year": 2020
-  },
-  "MVnobody": {
-    "groupName": "櫻坂４６",
-    "title": "「Nobody's fault」衣装",
-    "series_ids": [
-      "MVnobody"
-    ],
-    "year": 2020
-  },
-  "santa": {
-    "groupName": "櫻坂４６",
-    "title": "クリスマスサンタ衣装",
-    "series_ids": [
-      "santa"
-    ],
-    "year": 2020
-  },
-  "winshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "冬私服コーディネート衣装",
-    "series_ids": [
-      "winshihuku"
-    ],
-    "year": 2020
-  },
-  "21hurisode": {
-    "groupName": "櫻坂４６",
-    "title": "2021年 振袖衣装",
-    "series_ids": [
-      "21hurisode"
-    ],
-    "year": 2021
-  },
-  "MVnobody2": {
-    "groupName": "櫻坂４６",
-    "title": "「Nobode's fault」MVロケーション制服衣装",
-    "series_ids": [
-      "MVnobody2"
-    ],
-    "year": 2021
-  },
-  "MVnazekoi": {
-    "groupName": "櫻坂４６",
-    "title": "「なぜ恋をして来なかったんだろう？」MVロケーション衣装",
-    "series_ids": [
-      "MVnazekoi"
-    ],
-    "year": 2021
-  },
-  "MVbuddies": {
-    "groupName": "櫻坂４６",
-    "title": "「Buddies」MVロケーション衣装",
-    "series_ids": [
-      "MVbuddies"
-    ],
-    "year": 2021
-  },
-  "encban": {
-    "groupName": "櫻坂４６",
-    "title": "「BAN」封入",
-    "series_ids": [
-      "encban"
-    ],
-    "year": 2021
-  },
-  "nobodylive": {
-    "groupName": "櫻坂４６",
-    "title": "「Nobody's fault」カップリング楽曲TVパフォーマンス衣装",
-    "series_ids": [
-      "nobodylive"
-    ],
-    "year": 2021
-  },
-  "20live": {
-    "groupName": "櫻坂４６",
-    "title": "2020年歌番組衣装",
-    "series_ids": [
-      "20live"
-    ],
-    "year": 2021
-  },
-  "lastlive": {
-    "groupName": "櫻坂４６",
-    "title": "ラストライブDay1",
-    "series_ids": [
-      "lastlive"
-    ],
-    "year": 2021
-  },
-  "lastlive2": {
-    "groupName": "櫻坂４６",
-    "title": "ラストライブDay2",
-    "series_ids": [
-      "lastlive2"
-    ],
-    "year": 2021
-  },
-  "1backs": {
-    "groupName": "櫻坂４６",
-    "title": "「BACKS LIVE!!」メインビジュアル用MV衣装",
-    "series_ids": [
-      "1backs"
-    ],
-    "year": 2021
-  },
-  "1backs2": {
-    "groupName": "櫻坂４６",
-    "title": "「BACKS LIVE!!」メインビジュアル用私服衣装",
-    "series_ids": [
-      "1backs2"
-    ],
-    "year": 2021
-  },
-  "MVban": {
-    "groupName": "櫻坂４６",
-    "title": "「BAN」MVロケーション衣装",
-    "series_ids": [
-      "MVban"
-    ],
-    "year": 2021
-  },
-  "MVgukota": {
-    "groupName": "櫻坂４６",
-    "title": "「偶然の答え」MVロケーション衣装",
-    "series_ids": [
-      "MVgukota"
-    ],
-    "year": 2021
-  },
-  "MVomosabi": {
-    "groupName": "櫻坂４６",
-    "title": "「思ったよりも寂しくない」MVロケーション衣装",
-    "series_ids": [
-      "MVomosabi"
-    ],
-    "year": 2021
-  },
-  "banlive": {
-    "groupName": "櫻坂４６",
-    "title": "「BAN」歌番組衣装",
-    "series_ids": [
-      "banlive"
-    ],
-    "year": 2021
-  },
-  "21yukata": {
-    "groupName": "櫻坂４６",
-    "title": "2021年 浴衣衣装",
-    "series_ids": [
-      "21yukata"
-    ],
-    "year": 2021
-  },
-  "21sumshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "2021年 夏私服コーディネート衣装",
-    "series_ids": [
-      "21sumshihuku"
-    ],
-    "year": 2021
-  },
-  "encnagare": {
-    "groupName": "櫻坂４６",
-    "title": "「流れ弾」封入",
-    "series_ids": [
-      "encnagare"
-    ],
-    "year": 2021
-  },
-  "MVnagare": {
-    "groupName": "櫻坂４６",
-    "title": "「流れ弾」MVロケーション衣装",
-    "series_ids": [
-      "MVnagare"
-    ],
-    "year": 2021
-  },
-  "MVdedend": {
-    "groupName": "櫻坂４６",
-    "title": "「Dead end」MVロケーション衣装",
-    "series_ids": [
-      "MVdedend"
-    ],
-    "year": 2021
-  },
-  "MVmugon": {
-    "groupName": "櫻坂４６",
-    "title": "「無言の宇宙」MV衣装",
-    "series_ids": [
-      "MVmugon"
-    ],
-    "year": 2021
-  },
-  "21santa": {
-    "groupName": "櫻坂４６",
-    "title": "2021年 クリスマスサンタ衣装",
-    "series_ids": [
-      "21santa"
-    ],
-    "year": 2021
-  },
-  "1arn": {
-    "groupName": "櫻坂４６",
-    "title": "「1st TOUR2021」ライブオープニング衣装",
-    "series_ids": [
-      "1arn"
-    ],
-    "year": 2021
-  },
-  "MVnagare2": {
-    "groupName": "櫻坂４６",
-    "title": "「流れ弾」黒衣装",
-    "series_ids": [
-      "MVnagare2"
-    ],
-    "year": 2021
-  },
-  "MVmugon2": {
-    "groupName": "櫻坂４６",
-    "title": "「無言の宇宙」MVスタイリング衣装",
-    "series_ids": [
-      "MVmugon2"
-    ],
-    "year": 2021
-  },
-  "3backs": {
-    "groupName": "櫻坂４６",
-    "title": "3rd Single「BACKS LIVE!!」ビジュアルMV衣装",
-    "series_ids": [
-      "3backs"
-    ],
-    "year": 2022
-  },
-  "22hurisode": {
-    "groupName": "櫻坂４６",
-    "title": "2022年振袖衣装",
-    "series_ids": [
-      "22hurisode"
-    ],
-    "year": 2022
-  },
-  "jacnagare": {
-    "groupName": "櫻坂４６",
-    "title": "「流れ弾」ジャケット写真衣装",
-    "series_ids": [
-      "jacnagare"
-    ],
-    "year": 2022
-  },
-  "encsamidare": {
-    "groupName": "櫻坂４６",
-    "title": "「五月雨よ」封入",
-    "series_ids": [
-      "encsamidare"
-    ],
-    "year": 2022
-  },
-  "MVsamidare": {
-    "groupName": "櫻坂４６",
-    "title": "「五月雨よ」MVロケーション衣装",
-    "series_ids": [
-      "MVsamidare"
-    ],
-    "year": 2022
-  },
-  "22sprshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "2022年春私服コーディネート衣装",
-    "series_ids": [
-      "22sprshihuku"
-    ],
-    "year": 2022
-  },
-  "patissier": {
-    "groupName": "櫻坂４６",
-    "title": "パティシエ衣装",
-    "series_ids": [
-      "patissier"
-    ],
-    "year": 2022
-  },
-  "MVdilemma": {
-    "groupName": "櫻坂４６",
-    "title": "「僕のジレンマ」MVロケーション衣装",
-    "series_ids": [
-      "MVdilemma"
-    ],
-    "year": 2022
-  },
-  "MVsamidare2": {
-    "groupName": "櫻坂４６",
-    "title": "「五月雨よ」MVパフォーマンス衣装",
-    "series_ids": [
-      "MVsamidare2"
-    ],
-    "year": 2022
-  },
-  "MVshakan": {
-    "groupName": "櫻坂４６",
-    "title": "「車間距離」MVロケーション衣装",
-    "series_ids": [
-      "MVshakan"
-    ],
-    "year": 2022
-  },
-  "21wfes": {
-    "groupName": "櫻坂４６",
-    "title": "「W-KEYAKI FES.2021」ライブパフォーマンス ピンク衣装",
-    "series_ids": [
-      "21wfes"
-    ],
-    "year": 2022
-  },
-  "22camp": {
-    "groupName": "櫻坂４６",
-    "title": "2022年キャンプコーディネート衣装",
-    "series_ids": [
-      "22camp"
-    ],
-    "year": 2022
-  },
-  "risagurad": {
-    "groupName": "櫻坂４６",
-    "title": "「渡邉理佐 卒業コンサート」衣装",
-    "series_ids": [
-      "risagurad"
-    ],
-    "year": 2022
-  },
-  "encasyou": {
-    "groupName": "櫻坂４６",
-    "title": "「As you know?」封入",
-    "series_ids": [
-      "encasyou"
-    ],
-    "year": 2022
-  },
-  "22yukata": {
-    "groupName": "櫻坂４６",
-    "title": "2022年 浴衣衣装",
-    "series_ids": [
-      "22yukata"
-    ],
-    "year": 2022
-  },
-  "MVmasatsu": {
-    "groupName": "櫻坂４６",
-    "title": "「摩擦係数」MV衣装",
-    "series_ids": [
-      "MVmasatsu"
-    ],
-    "year": 2022
-  },
-  "1arn": {
-    "groupName": "櫻坂４６",
-    "title": "「1st TOUR 2021」ライブ衣装",
-    "series_ids": [
-      "1arn"
-    ],
-    "year": 2022
-  },
-  "concent": {
-    "groupName": "櫻坂４６",
-    "title": "「コンセントレーション」ライブ衣装",
-    "series_ids": [
-      "concent"
-    ],
-    "year": 2022
-  },
-  "jamabe": {
-    "groupName": "櫻坂４６",
-    "title": "「ジャマイカビール」ライブ衣装",
-    "series_ids": [
-      "jamabe"
-    ],
-    "year": 2022
-  },
-  "ningyo": {
-    "groupName": "櫻坂４６",
-    "title": "「制服の人魚」ライブ衣装",
-    "series_ids": [
-      "ningyo"
-    ],
-    "year": 2022
-  },
-  "22falshihiku": {
-    "groupName": "櫻坂４６",
-    "title": "2022年秋私服コーディネート衣装",
-    "series_ids": [
-      "22falshihiku"
-    ],
-    "year": 2022
-  },
-  "22halowen": {
-    "groupName": "櫻坂４６",
-    "title": "2022年ハロウィン衣装",
-    "series_ids": [
-      "22halowen"
-    ],
-    "year": 2022
-  },
-  "22santa": {
-    "groupName": "櫻坂４６",
-    "title": "2022年クリスマスサンタ衣装",
-    "series_ids": [
-      "22santa"
-    ],
-    "year": 2022
-  },
-  "22wfes": {
-    "groupName": "櫻坂４６",
-    "title": "「W-KEYAKI FES.2022」ライブ ピンク衣装",
-    "series_ids": [
-      "22wfes"
-    ],
-    "year": 2022
-  },
-  "22pajama": {
-    "groupName": "櫻坂４６",
-    "title": "2022年 もこもこパジャマ衣装",
-    "series_ids": [
-      "22pajama"
-    ],
-    "year": 2022
-  },
-  "23hurisode": {
-    "groupName": "櫻坂４６",
-    "title": "2023年 振袖衣装",
-    "series_ids": [
-      "23hurisode"
-    ],
-    "year": 2023
-  },
-  "usamimi": {
-    "groupName": "櫻坂４６",
-    "title": "うさみみコーデ",
-    "series_ids": [
-      "usamimi"
-    ],
-    "year": 2023
-  },
-  "encsakura": {
-    "groupName": "櫻坂４６",
-    "title": "「桜月」封入",
-    "series_ids": [
-      "encsakura"
-    ],
-    "year": 2023
-  },
-  "MVnatsuchika": {
-    "groupName": "櫻坂４６",
-    "title": "「夏の近道」MV衣装",
-    "series_ids": [
-      "MVnatsuchika"
-    ],
-    "year": 2023
-  },
-  "MVnatsuchika2": {
-    "groupName": "櫻坂４６",
-    "title": "「夏の近道」MV制服",
-    "series_ids": [
-      "MVnatsuchika2"
-    ],
-    "year": 2023
-  },
-  "3ban": {
-    "groupName": "櫻坂４６",
-    "title": "「BAN」MV衣装",
-    "series_ids": [
-      "3ban"
-    ],
-    "year": 2023
-  },
-  "23winshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "2023年冬私服コーデ",
-    "series_ids": [
-      "23winshihuku"
-    ],
-    "year": 2023
-  },
-  "2anv": {
-    "groupName": "櫻坂４６",
-    "title": "「2nd YEAR ANNIVERSARY ～Buddies感謝祭～」ライブ衣装",
-    "series_ids": [
-      "2anv"
-    ],
-    "year": 2023
-  },
-  "apron": {
-    "groupName": "櫻坂４６",
-    "title": "エプロンコーデ",
-    "series_ids": [
-      "apron"
-    ],
-    "year": 2023
-  },
-  "MVsakura": {
-    "groupName": "櫻坂４６",
-    "title": "「桜月」MV衣装",
-    "series_ids": [
-      "MVsakura"
-    ],
-    "year": 2023
-  },
-  "2arn": {
-    "groupName": "櫻坂４６",
-    "title": "「2nd TOUR 2022」青衣装",
-    "series_ids": [
-      "2arn"
-    ],
-    "year": 2023
-  },
-  "3booklet": {
-    "groupName": "櫻坂４６",
-    "title": "3期生ブックレット衣装",
-    "series_ids": [
-      "3booklet"
-    ],
-    "year": 2023
-  },
-  "suit": {
-    "groupName": "櫻坂４６",
-    "title": "スーツコーデ",
-    "series_ids": [
-      "suit"
-    ],
-    "year": 2023
-  },
-  "MVcool": {
-    "groupName": "櫻坂４６",
-    "title": "「Cool」MV衣装",
-    "series_ids": [
-      "MVcool"
-    ],
-    "year": 2023
-  },
-  "MVsakura2": {
-    "groupName": "櫻坂４６",
-    "title": "「桜月」MV青衣装",
-    "series_ids": [
-      "MVsakura2"
-    ],
-    "year": 2023
-  },
-  "2arn2": {
-    "groupName": "櫻坂４６",
-    "title": "「2nd TOUR 2022」オープニング衣装",
-    "series_ids": [
-      "2arn2"
-    ],
-    "year": 2023
-  },
-  "color": {
-    "groupName": "櫻坂４６",
-    "title": "カラーコーデ",
-    "series_ids": [
-      "color"
-    ],
-    "year": 2023
-  },
-  "encstov": {
-    "groupName": "櫻坂４６",
-    "title": "「Start over!」封入",
-    "series_ids": [
-      "encstov"
-    ],
-    "year": 2023
-  },
-  "3arn": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd TOUR 2023」オープニング衣装",
-    "series_ids": [
-      "3arn"
-    ],
-    "year": 2023
-  },
-  "roman": {
-    "groupName": "櫻坂４６",
-    "title": "大正浪漫衣装",
-    "series_ids": [
-      "roman"
-    ],
-    "year": 2023
-  },
-  "jacstov": {
-    "groupName": "櫻坂４６",
-    "title": "「Start over!」ジャケット写真衣装",
-    "series_ids": [
-      "jacstov"
-    ],
-    "year": 2023
-  },
-  "MVstov": {
-    "groupName": "櫻坂４６",
-    "title": "「Start over!」MV衣装",
-    "series_ids": [
-      "MVstov"
-    ],
-    "year": 2023
-  },
-  "MVseijaku": {
-    "groupName": "櫻坂４６",
-    "title": "「静寂の暴力」MV衣装",
-    "series_ids": [
-      "MVseijaku"
-    ],
-    "year": 2023
-  },
-  "sumdres": {
-    "groupName": "櫻坂４６",
-    "title": "サマーワンピース",
-    "series_ids": [
-      "sumdres"
-    ],
-    "year": 2023
-  },
-  "MVdrone": {
-    "groupName": "櫻坂４６",
-    "title": "「ドローン旋回中」MV衣装",
-    "series_ids": [
-      "MVdrone"
-    ],
-    "year": 2023
-  },
-  "22wfes2": {
-    "groupName": "櫻坂４６",
-    "title": "「W-KEYAKI FES.2022」 赤ピンク衣装",
-    "series_ids": [
-      "22wfes2"
-    ],
-    "year": 2023
-  },
-  "denim": {
-    "groupName": "櫻坂４６",
-    "title": "デニムコーデ",
-    "series_ids": [
-      "denim"
-    ],
-    "year": 2023
-  },
-  "23halowen": {
-    "groupName": "櫻坂４６",
-    "title": "2023年 ハロウィン衣装",
-    "series_ids": [
-      "23halowen"
-    ],
-    "year": 2023
-  },
-  "encshonin": {
-    "groupName": "櫻坂４６",
-    "title": "「承認欲求」封入",
-    "series_ids": [
-      "encshonin"
-    ],
-    "year": 2023
-  },
-  "23santa": {
-    "groupName": "櫻坂４６",
-    "title": "2023年 クリスマスサンタ衣装",
-    "series_ids": [
-      "23santa"
-    ],
-    "year": 2023
-  },
-  "3arn2": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd TOUR 2023」白スーツ衣装",
-    "series_ids": [
-      "3arn2"
-    ],
-    "year": 2023
-  },
-  "23sumfes": {
-    "groupName": "櫻坂４６",
-    "title": "2023年 夏フェス衣装",
-    "series_ids": [
-      "23sumfes"
-    ],
-    "year": 2023
-  },
-  "3nobody": {
-    "groupName": "櫻坂４６",
-    "title": "「Nobody's fault」MV衣装",
-    "series_ids": [
-      "3nobody"
-    ],
-    "year": 2023
-  },
-  "23dokusho": {
-    "groupName": "櫻坂４６",
-    "title": "2023年 読書コーデ",
-    "series_ids": [
-      "23dokusho"
-    ],
-    "year": 2023
-  },
-  "24hurisode": {
-    "groupName": "櫻坂４６",
-    "title": "2024年 振袖衣装",
-    "series_ids": [
-      "24hurisode"
-    ],
-    "year": 2023
-  },
-  "22yearend": {
-    "groupName": "櫻坂４６",
-    "title": "2022年　年末歌唱衣装",
-    "series_ids": [
-      "22yearend"
-    ],
-    "year": 2023
-  },
-    "jacshonin": {
-    "groupName": "櫻坂４６",
-    "title": "「承認欲求」ジャケット写真衣装",
-    "series_ids": [
-      "jacshonin"
-    ],
-    "year": 2024
-  },
-  "MVshonin": {
-    "groupName": "櫻坂４６",
-    "title": "「承認欲求」MV衣装",
-    "series_ids": [
-      "MVshonin"
-    ],
-    "year": 2024
-  },
-  "MVmamori": {
-    "groupName": "櫻坂４６",
-    "title": "マモリビト　MV",
-    "series_ids": [
-      "MVmamori"
-    ],
-    "year": 2024
-  },
-  "3backs": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd Single BACKS LIVE!!」衣装",
-    "series_ids": [
-      "3backs"
-    ],
-    "year": 2024
-  },
-  "ouchi": {
-    "groupName": "櫻坂４６",
-    "title": "おうちコーデ",
-    "series_ids": [
-      "ouchi"
-    ],
-    "year": 2024
-  },
-  "MVsukima": {
-    "groupName": "櫻坂４６",
-    "title": "「隙間風よ」MV衣装",
-    "series_ids": [
-      "MVsukima"
-    ],
-    "year": 2024
-  },
-  "stovlive": {
-    "groupName": "櫻坂４６",
-    "title": "「Start over!」歌唱衣装",
-    "series_ids": [
-      "stovlive"
-    ],
-    "year": 2024
-  },
-  "jump": {
-    "groupName": "櫻坂４６",
-    "title": "ジャンプスーツ",
-    "series_ids": [
-      "jump"
-    ],
-    "year": 2024
-  },
-  "encikumodo": {
-    "groupName": "櫻坂４６",
-    "title": "「何歳の頃に戻りたいのか？」封入",
-    "series_ids": [
-      "encikumodo"
-    ],
-    "year": 2024
-  },
-  "3arn3": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd TOUR 2023」ピンク衣装",
-    "series_ids": [
-      "3arn3"
-    ],
-    "year": 2024
-  },
-  "3anv2": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd YEAR ANNIVERSARY LIVE」ライブ衣装　黒",
-    "series_ids": [
-      "3anv2"
-    ],
-    "year": 2024
-  },
-  "jacikumodo": {
-    "groupName": "櫻坂４６",
-    "title": "「何歳の頃に戻りたいのか？」ジャケット写真衣装",
-    "series_ids": [
-      "jacikumodo"
-    ],
-    "year": 2024
-  },
-  "24sprshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "2024年　春私服コーデ",
-    "series_ids": [
-      "24sprshihuku"
-    ],
-    "year": 2024
-  },
-  "MVikumodo": {
-    "groupName": "櫻坂４６",
-    "title": "「何歳の頃に戻りたいのか？」MV衣装",
-    "series_ids": [
-      "MVikumodo"
-    ],
-    "year": 2024
-  },
-  "MVnanlove": {
-    "groupName": "櫻坂４６",
-    "title": "「何度　LOVE SONGの歌詞を読み返しただろう」MV衣装",
-    "series_ids": [
-      "MVnanlove"
-    ],
-    "year": 2024
-  },
-  "7backs": {
-    "groupName": "櫻坂４６",
-    "title": "「7th Single BACKS LIVE!!」オープニング衣装",
-    "series_ids": [
-      "7backs"
-    ],
-    "year": 2024
-  },
-  "MVabura": {
-    "groupName": "櫻坂４６",
-    "title": "「油を注せ！」MV衣装",
-    "series_ids": [
-      "MVabura"
-    ],
-    "year": 2024
-  },
-  "yuigrad": {
-    "groupName": "櫻坂４６",
-    "title": "「小林由依 卒業コンサート」ライブ衣装",
-    "series_ids": [
-      "yuigrad"
-    ],
-    "year": 2024
-  },
-  "colordenim": {
-    "groupName": "櫻坂４６",
-    "title": "カラーデニム",
-    "series_ids": [
-      "colordenim"
-    ],
-    "year": 2024
-  },
-  "24yukata": {
-    "groupName": "櫻坂４６",
-    "title": "2024年　浴衣",
-    "series_ids": [
-      "24yukata"
-    ],
-    "year": 2024
-  },
-  "yuigrad2": {
-    "groupName": "櫻坂４６",
-    "title": "「小林由依卒業コンサート」赤衣装",
-    "series_ids": [
-      "yuigrad2"
-    ],
-    "year": 2024
-  },
-  "23arn4": {
-    "groupName": "櫻坂４６",
-    "title": "「3rd TOUR 2023」ライブ衣装",
-    "series_ids": [
-      "23arn4"
-    ],
-    "year": 2024
-  },
-  "encjgjt": {
-    "groupName": "櫻坂４６",
-    "title": "「自業自得」封入",
-    "series_ids": [
-      "encjgjt"
-    ],
-    "year": 2024
-  },
-  "mugiwara": {
-    "groupName": "櫻坂４６",
-    "title": "麦わら帽子コーデ",
-    "series_ids": [
-      "mugiwara"
-    ],
-    "year": 2024
-  },
-  "23yearend": {
-    "groupName": "櫻坂４６",
-    "title": "2023年　年末歌唱衣装",
-    "series_ids": [
-      "23yearend"
-    ],
-    "year": 2024
-  },
-  "jacjgjt": {
-    "groupName": "櫻坂４６",
-    "title": "「自業自得」ジャケット写真衣装",
-    "series_ids": [
-      "jacjgjt"
-    ],
-    "year": 2024
-  },
-  "MVjgjt": {
-    "groupName": "櫻坂４６",
-    "title": "「自業自得」MV衣装",
-    "series_ids": [
-      "MVjgjt"
-    ],
-    "year": 2024
-  },
-  "8backs": {
-    "groupName": "櫻坂４６",
-    "title": "「8th Single BACKS LIVE!!」ライブ衣装",
-    "series_ids": [
-      "8backs"
-    ],
-    "year": 2024
-  },
-  "MVaisi": {
-    "groupName": "櫻坂４６",
-    "title": "「愛し合いなさい」MVカラフル衣装",
-    "series_ids": [
-      "MVaisi"
-    ],
-    "year": 2024
-  },
-  "MVaisi2": {
-    "groupName": "櫻坂４６",
-    "title": "「愛し合いなさい」MV黒衣装",
-    "series_ids": [
-      "MVaisi2"
-    ],
-    "year": 2024
-  },
-  "tshirt": {
-    "groupName": "櫻坂４６",
-    "title": "Tシャツコーデ",
-    "series_ids": [
-      "tshirt"
-    ],
-    "year": 2024
-  },
-  "MVhkkm": {
-    "groupName": "櫻坂４６",
-    "title": "「引きこもる時間はない」MV衣装",
-    "series_ids": [
-      "MVhkkm"
-    ],
-    "year": 2024
-  },
-  "4arn": {
-    "groupName": "櫻坂４６",
-    "title": "「4th ARENA TOUR 2024」ライブ衣装",
-    "series_ids": [
-      "4arn"
-    ],
-    "year": 2024
-  },
-  "yshirt": {
-    "groupName": "櫻坂４６",
-    "title": "ワイシャツコーデ",
-    "series_ids": [
-      "yshirt"
-    ],
-    "year": 2024
-  },
-  "24halowen": {
-    "groupName": "櫻坂４６",
-    "title": "2024年　ハロウィン衣装",
-    "series_ids": [
-      "24halowen"
-    ],
-    "year": 2024
-  },
-  "knit": {
-    "groupName": "櫻坂４６",
-    "title": "カラーニットコーデ",
-    "series_ids": [
-      "knit"
-    ],
-    "year": 2024
-  },
-  "enciwtc": {
-    "groupName": "櫻坂４６",
-    "title": "「I want tomorrow to come」封入",
-    "series_ids": [
-      "enciwtc"
-    ],
-    "year": 2024
-  },
-  "24santa": {
-    "groupName": "櫻坂４６",
-    "title": "2024年　クリスマスサンタ衣装",
-    "series_ids": [
-      "24santa"
-    ],
-    "year": 2024
-  },
-  "4arndomeop": {
-    "groupName": "櫻坂４６",
-    "title": "「4th ARENA TOUR IN 東京ドーム」オープニング衣装",
-    "series_ids": [
-      "4arndomeop"
-    ],
-    "year": 2024
-  },
-  "doubutsu": {
-    "groupName": "櫻坂４６",
-    "title": "どうぶつ着ぐるみ",
-    "series_ids": [
-      "doubutsu"
-    ],
-    "year": 2024
-  },
-  "MVboku": {
-    "groupName": "櫻坂４６",
-    "title": "「僕は僕を好きになれない」MV衣装",
-    "series_ids": [
-      "MVboku"
-    ],
-    "year": 2024
-  },
-  "9backs": {
-    "groupName": "櫻坂４６",
-    "title": "「9th Single BACKS LIVE!!」オープニング衣装",
-    "series_ids": [
-      "9backs"
-    ],
-    "year": 2024
-  },
-  "scarf": {
-    "groupName": "櫻坂４６",
-    "title": "マフラーコーデ",
-    "series_ids": [
-      "scarf"
-    ],
-    "year": 2024
-  },
-  "jaciwtc": {
-    "groupName": "櫻坂４６",
-    "title": "「I want tomorrow to come」ジャケット写真衣装",
-    "series_ids": [
-      "jaciwtc"
-    ],
-    "year": 2024
-  },
-  "MViwtc": {
-    "groupName": "櫻坂４６",
-    "title": "「I want tomorrow to come」MV衣装",
-    "series_ids": [
-      "MViwtc"
-    ],
-    "year": 2024
-  },
-  "MVhonshitsu": {
-    "groupName": "櫻坂４６",
-    "title": "「本質的なこと」MV衣装",
-    "series_ids": [
-      "MVhonshitsu"
-    ],
-    "year": 2024
-  },
-  "25hurisode": {
-    "groupName": "櫻坂４６",
-    "title": "2025年　振袖",
-    "series_ids": [
-      "25hurisode"
-    ],
-    "year": 2025
-  },
-  "23yearend": {
-    "groupName": "櫻坂４６",
-    "title": "2023年　年末衣装",
-    "series_ids": [
-      "23yearend"
-    ],
-    "year": 2025
-  },
-  "inumimi": {
-    "groupName": "櫻坂４６",
-    "title": "いぬみみコーデ",
-    "series_ids": [
-      "inumimi"
-    ],
-    "year": 2025
-  },
-  "encudagawa": {
-    "groupName": "櫻坂４６",
-    "title": "「UDAGAWA GENERATION」封入",
-    "series_ids": [
-      "encudagawa"
-    ],
-    "year": 2025
-  },
-  "jacudagawa": {
-    "groupName": "櫻坂４６",
-    "title": "「UDAGAWA GENERATION」ジャケット写真衣装",
-    "series_ids": [
-      "jacudagawa"
-    ],
-    "year": 2025
-  },
-  "MVudagawa": {
-    "groupName": "櫻坂４６",
-    "title": "「UDAGAWA GENERATION」MV衣装",
-    "series_ids": [
-      "MVudagawa"
-    ],
-    "year": 2025
-  },
-  "MVnight": {
-    "groupName": "櫻坂４６",
-    "title": "「Nightmare症候群」MV衣装",
-    "series_ids": [
-      "MVnight"
-    ],
-    "year": 2025
-  },
-  "MVnight2": {
-    "groupName": "櫻坂４６",
-    "title": "「Nightmare症候群」MV衣装 赤",
-    "series_ids": [
-      "MVnight2"
-    ],
-    "year": 2025
-  },
-  "MVnospe": {
-    "groupName": "櫻坂４６",
-    "title": "「Nothing special」MV衣装",
-    "series_ids": [
-      "MVnospe"
-    ],
-    "year": 2025
-  },
-  "24sumfes": {
-    "groupName": "櫻坂４６",
-    "title": "2024年　夏フェス衣装",
-    "series_ids": [
-      "24sumfes"
-    ],
-    "year": 2025
-  },
-  "mode": {
-    "groupName": "櫻坂４６",
-    "title": "モードコーデ",
-    "series_ids": [
-      "mode"
-    ],
-    "year": 2025
-  },
-  "4arnop": {
-    "groupName": "櫻坂４６",
-    "title": "「4th ARENA TOUR」オープニング衣装",
-    "series_ids": [
-      "4arnop"
-    ],
-    "year": 2025
-  },
-  "winshihuku": {
-    "groupName": "櫻坂４６",
-    "title": "冬私服コーデ",
-    "series_ids": [
-      "winshihuku"
-    ],
-    "year": 2025
-  },
-  "4anv": {
-    "groupName": "櫻坂４６",
-    "title": "「4th YEAR ANNIVERSARY LIVE」ライブ衣装",
-    "series_ids": [
-      "4anv"
-    ],
-    "year": 2025
-  },
-  "4arn2": {
-    "groupName": "櫻坂４６",
-    "title": "「4th ARENA TOUR」ライブ衣装",
-    "series_ids": [
-      "4arn2"
-    ],
-    "year": 2025
-  },
-  "nektie": {
-    "groupName": "櫻坂４６",
-    "title": "ネクタイコーデ",
-    "series_ids": [
-      "nektie"
-    ],
-    "year": 2025
-  },
-  "encadic": {
-    "groupName": "櫻坂４６",
-    "title": "「Addiction」封入",
-    "series_ids": [
-      "encadic"
-    ],
-    "year": 2025
-  },
-  "MVadic": {
-    "groupName": "櫻坂４６",
-    "title": "「Addiction」MV衣装",
-    "series_ids": [
-      "MVadic"
-    ],
-    "year": 2025
-  },
-  "3liveop": {
-    "groupName": "櫻坂４６",
-    "title": "「三期生ライブ」オープニング衣装",
-    "series_ids": [
-      "3liveop"
-    ],
-    "year": 2025
-  },
-  "leather": {
-    "groupName": "櫻坂４６",
-    "title": "レザージャケットコーデ",
-    "series_ids": [
-      "leather"
-    ],
-    "year": 2025
-  },
-  "4debut": {
-    "groupName": "櫻坂４６",
-    "title": "四期生お披露目制服",
-    "series_ids": [
-      "4debut"
-    ],
-    "year": 2025
-  },
-  "fst": {
-    "groupName": "櫻坂４６",
-    "title": "First Showcase ロゴTシャツ",
-    "series_ids": [
-      "fst"
-    ],
-    "year": 2025
-  },
-  "shihuku": {
-    "groupName": "櫻坂４６",
-    "title": "私服コーデ",
-    "series_ids": [
-      "shihuku"
-    ],
-    "year": 2025
-  },
-  "encmob": {
-    "groupName": "櫻坂４６",
-    "title": "「Make or Break」封入",
-    "series_ids": [
-      "encmob"
-    ],
-    "year": 2025
-  },
-  "25yukata": {
-    "groupName": "櫻坂４６",
-    "title": "2025年 浴衣",
-    "series_ids": [
-      "25yukata"
-    ],
-    "year": 2025
-  },
-  "4arndome": {
-    "groupName": "櫻坂４６",
-    "title": "「4th ARENA TOUR IN 東京ドーム」ライブ衣装",
-    "series_ids": [
-      "4arndome"
-    ],
-    "year": 2025
-  },
-  "24sumfes2": {
-    "groupName": "櫻坂４６",
-    "title": "2024年 夏フェス衣装",
-    "series_ids": [
-      "24sumfes2"
-    ],
-    "year": 2025
-  },
-  "MVparseley": {
-    "groupName": "櫻坂４６",
-    "title": "「港区パセリ」MV衣装",
-    "series_ids": [
-      "MVparseley"
-    ],
-    "year": 2025
-  },
-  "10backs": {
-    "groupName": "櫻坂４６",
-    "title": "「10th Single BACKS LIVE!!」ライブ衣装",
-    "series_ids": [
-      "10backs"
-    ],
-    "year": 2025
-  },
-  "11backs": {
-    "groupName": "櫻坂４６",
-    "title": "「11th Single BACKS LIVE!!」ライブ衣装",
-    "series_ids": [
-      "11backs"
-    ],
-    "year": 2025
-  },
-  "polo": {
-    "groupName": "櫻坂４６",
-    "title": "ポロシャツコーデ",
-    "series_ids": [
-      "polo"
-    ],
-    "year": 2025
-  },
-  "classic": {
-    "groupName": "櫻坂４６",
-    "title": "クラシックコーデ",
-    "series_ids": [
-      "classic"
-    ],
-    "year": 2025
-  },
-  "12uni": {
-    "groupName": "櫻坂４６",
-    "title": "12th制服",
-    "series_ids": [
-      "12uni"
-    ],
-    "year": 2025
-  },
-  "jacmob": {
-    "groupName": "櫻坂４６",
-    "title": "「Make or Break」ジャケット写真衣装",
-    "series_ids": [
-      "jacmob"
-    ],
-    "year": 2025
-  },
-  "MVmob": {
-    "groupName": "櫻坂４６",
-    "title": "「Make or Break」MV衣装",
-    "series_ids": [
-      "MVmob"
-    ],
-    "year": 2025
-  },
-  "MVmob2": {
-    "groupName": "櫻坂４６",
-    "title": "「Make or Break」MV衣装 青",
-    "series_ids": [
-      "MVmob2"
-    ],
-    "year": 2025
-  },
-  "MVsindahuri": {
-    "groupName": "櫻坂４６",
-    "title": "「死んだふり」MV衣装",
-    "series_ids": [
-      "MVsindahuri"
-    ],
-    "year": 2025
-  },
-  "MVshindahuri2": {
-    "groupName": "櫻坂４６",
-    "title": "「死んだふり」MV衣装 白",
-    "series_ids": [
-      "MVshindahuri2"
-    ],
-    "year": 2025
-  },
+    "set20sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2020）",
+      "series_ids": [
+        "encnobody",
+        "MVnobody",
+        "santa"
+      ],
+      "year": 2020
+    },
+    "set21sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2021）",
+      "series_ids": [
+        "21hurisode",
+        "MVnobody2",
+        "MVnazekoi",
+        "MVbuddies",
+        "encban",
+        "nobodylive",
+        "20live",
+        "lastlive",
+        "lastlive2",
+        "1backs",
+        "1backs2",
+        "MVban",
+        "MVgukota",
+        "MVomosabi",
+        "banlive",
+        "21yukata",
+        "21sumshihuku",
+        "encnagare",
+        "MVnagare",
+        "MVdedend",
+        "MVmugon",
+        "21santa",
+        "MVnagare2",
+        "MVmugon2"
+      ],
+      "year": 2021
+    },
+    "set22sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2022）",
+      "series_ids": [
+        "1arn",
+        "22hurisode",
+        "jacnagare",
+        "encsamidare",
+        "MVsamidare",
+        "22sprshihuku",
+        "patissier",
+        "MVdilemma",
+        "MVsamidare2",
+        "MVshakan",
+        "21wfes",
+        "22camp",
+        "risagurad",
+        "encasyou",
+        "22yukata",
+        "MVmasatsu",
+        "concent",
+        "jamabe",
+        "ningyo",
+        "22falshihiku",
+        "22halowen",
+        "22santa",
+        "22wfes",
+        "22pajama"
+      ],
+      "year": 2022
+    },
+    "set23sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2023）",
+      "series_ids": [
+        "23hurisode",
+        "usamimi",
+        "encsakura",
+        "MVnatsuchika",
+        "MVnatsuchika2",
+        "3ban",
+        "23winshihuku",
+        "2anv",
+        "apron",
+        "MVsakura",
+        "2arn",
+        "3booklet",
+        "suit",
+        "MVcool",
+        "MVsakura2",
+        "2arn2",
+        "color",
+        "encstov",
+        "3arn",
+        "roman",
+        "jacstov",
+        "MVstov",
+        "MVseijaku",
+        "sumdres",
+        "MVdrone",
+        "22wfes2",
+        "denim",
+        "23halowen",
+        "encshonin",
+        "23santa",
+        "3arn2",
+        "23sumfes",
+        "3nobody",
+        "23dokusho",
+        "24hurisode",
+        "22yearend"
+      ],
+      "year": 2023
+    },
+    "set24sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2024）",
+      "series_ids": [
+        "3backs",
+        "jacshonin",
+        "MVshonin",
+        "MVmamori",
+        "ouchi",
+        "MVsukima",
+        "stovlive",
+        "jump",
+        "encikumodo",
+        "3arn3",
+        "3anv2",
+        "jacikumodo",
+        "24sprshihuku",
+        "MVikumodo",
+        "MVnanlove",
+        "7backs",
+        "MVabura",
+        "yuigrad",
+        "colordenim",
+        "24yukata",
+        "yuigrad2",
+        "23arn4",
+        "encjgjt",
+        "mugiwara",
+        "jacjgjt",
+        "MVjgjt",
+        "8backs",
+        "MVaisi",
+        "MVaisi2",
+        "tshirt",
+        "MVhkkm",
+        "4arn",
+        "yshirt",
+        "24halowen",
+        "knit",
+        "enciwtc",
+        "24santa",
+        "4arndomeop",
+        "doubutsu",
+        "MVboku",
+        "9backs",
+        "scarf",
+        "jaciwtc",
+        "MViwtc",
+        "MVhonshitsu"
+      ],
+      "year": 2024
+    },
+    "set25sakura":{
+      "groupName": "櫻坂４６",
+      "title": "櫻坂４６セット（2025）",
+      "series_ids": [
+        "winshihuku",
+        "23yearend",
+        "25hurisode",
+        "inumimi",
+        "encudagawa",
+        "jacudagawa",
+        "MVudagawa",
+        "MVnight",
+        "MVnight2",
+        "MVnospe",
+        "24sumfes",
+        "mode",
+        "4arnop",
+        "4anv",
+        "4arn2",
+        "nektie",
+        "encadic",
+        "MVadic",
+        "3liveop",
+        "leather",
+        "4debut",
+        "fst",
+        "shihuku",
+        "encmob",
+        "25yukata",
+        "4arndome",
+        "24sumfes2",
+        "MVparseley",
+        "10backs",
+        "11backs",
+        "polo",
+        "classic",
+        "12uni",
+        "jacmob",
+        "MVmob",
+        "MVmob2",
+        "MVsindahuri",
+        "MVshindahuri2",
+        "2025-06-2",
+        "tourT25miyagi"
+      ],
+      "year": 2025
+    },
+    "encnobody": {
+      "groupName": "櫻坂４６",
+      "title": "「Nobody's fault」封入",
+      "series_ids": [
+        "encnobody"
+      ],
+      "year": 2020
+    },
+    "MVnobody": {
+      "groupName": "櫻坂４６",
+      "title": "「Nobody's fault」衣装",
+      "series_ids": [
+        "MVnobody"
+      ],
+      "year": 2020
+    },
+    "santa": {
+      "groupName": "櫻坂４６",
+      "title": "クリスマスサンタ衣装",
+      "series_ids": [
+        "santa"
+      ],
+      "year": 2020
+    },
+    "winshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "冬私服コーディネート衣装",
+      "series_ids": [
+        "winshihuku"
+      ],
+      "year": 2020
+    },
+    "21hurisode": {
+      "groupName": "櫻坂４６",
+      "title": "2021年 振袖衣装",
+      "series_ids": [
+        "21hurisode"
+      ],
+      "year": 2021
+    },
+    "MVnobody2": {
+      "groupName": "櫻坂４６",
+      "title": "「Nobode's fault」MVロケーション制服衣装",
+      "series_ids": [
+        "MVnobody2"
+      ],
+      "year": 2021
+    },
+    "MVnazekoi": {
+      "groupName": "櫻坂４６",
+      "title": "「なぜ恋をして来なかったんだろう？」MVロケーション衣装",
+      "series_ids": [
+        "MVnazekoi"
+      ],
+      "year": 2021
+    },
+    "MVbuddies": {
+      "groupName": "櫻坂４６",
+      "title": "「Buddies」MVロケーション衣装",
+      "series_ids": [
+        "MVbuddies"
+      ],
+      "year": 2021
+    },
+    "encban": {
+      "groupName": "櫻坂４６",
+      "title": "「BAN」封入",
+      "series_ids": [
+        "encban"
+      ],
+      "year": 2021
+    },
+    "nobodylive": {
+      "groupName": "櫻坂４６",
+      "title": "「Nobody's fault」カップリング楽曲TVパフォーマンス衣装",
+      "series_ids": [
+        "nobodylive"
+      ],
+      "year": 2021
+    },
+    "20live": {
+      "groupName": "櫻坂４６",
+      "title": "2020年歌番組衣装",
+      "series_ids": [
+        "20live"
+      ],
+      "year": 2021
+    },
+    "lastlive": {
+      "groupName": "櫻坂４６",
+      "title": "ラストライブDay1",
+      "series_ids": [
+        "lastlive"
+      ],
+      "year": 2021
+    },
+    "lastlive2": {
+      "groupName": "櫻坂４６",
+      "title": "ラストライブDay2",
+      "series_ids": [
+        "lastlive2"
+      ],
+      "year": 2021
+    },
+    "1backs": {
+      "groupName": "櫻坂４６",
+      "title": "「BACKS LIVE!!」メインビジュアル用MV衣装",
+      "series_ids": [
+        "1backs"
+      ],
+      "year": 2021
+    },
+    "1backs2": {
+      "groupName": "櫻坂４６",
+      "title": "「BACKS LIVE!!」メインビジュアル用私服衣装",
+      "series_ids": [
+        "1backs2"
+      ],
+      "year": 2021
+    },
+    "MVban": {
+      "groupName": "櫻坂４６",
+      "title": "「BAN」MVロケーション衣装",
+      "series_ids": [
+        "MVban"
+      ],
+      "year": 2021
+    },
+    "MVgukota": {
+      "groupName": "櫻坂４６",
+      "title": "「偶然の答え」MVロケーション衣装",
+      "series_ids": [
+        "MVgukota"
+      ],
+      "year": 2021
+    },
+    "MVomosabi": {
+      "groupName": "櫻坂４６",
+      "title": "「思ったよりも寂しくない」MVロケーション衣装",
+      "series_ids": [
+        "MVomosabi"
+      ],
+      "year": 2021
+    },
+    "banlive": {
+      "groupName": "櫻坂４６",
+      "title": "「BAN」歌番組衣装",
+      "series_ids": [
+        "banlive"
+      ],
+      "year": 2021
+    },
+    "21yukata": {
+      "groupName": "櫻坂４６",
+      "title": "2021年 浴衣衣装",
+      "series_ids": [
+        "21yukata"
+      ],
+      "year": 2021
+    },
+    "21sumshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "2021年 夏私服コーディネート衣装",
+      "series_ids": [
+        "21sumshihuku"
+      ],
+      "year": 2021
+    },
+    "encnagare": {
+      "groupName": "櫻坂４６",
+      "title": "「流れ弾」封入",
+      "series_ids": [
+        "encnagare"
+      ],
+      "year": 2021
+    },
+    "MVnagare": {
+      "groupName": "櫻坂４６",
+      "title": "「流れ弾」MVロケーション衣装",
+      "series_ids": [
+        "MVnagare"
+      ],
+      "year": 2021
+    },
+    "MVdedend": {
+      "groupName": "櫻坂４６",
+      "title": "「Dead end」MVロケーション衣装",
+      "series_ids": [
+        "MVdedend"
+      ],
+      "year": 2021
+    },
+    "MVmugon": {
+      "groupName": "櫻坂４６",
+      "title": "「無言の宇宙」MV衣装",
+      "series_ids": [
+        "MVmugon"
+      ],
+      "year": 2021
+    },
+    "21santa": {
+      "groupName": "櫻坂４６",
+      "title": "2021年 クリスマスサンタ衣装",
+      "series_ids": [
+        "21santa"
+      ],
+      "year": 2021
+    },
+    "1arn": {
+      "groupName": "櫻坂４６",
+      "title": "「1st TOUR2021」ライブオープニング衣装",
+      "series_ids": [
+        "1arn"
+      ],
+      "year": 2021
+    },
+    "MVnagare2": {
+      "groupName": "櫻坂４６",
+      "title": "「流れ弾」黒衣装",
+      "series_ids": [
+        "MVnagare2"
+      ],
+      "year": 2021
+    },
+    "MVmugon2": {
+      "groupName": "櫻坂４６",
+      "title": "「無言の宇宙」MVスタイリング衣装",
+      "series_ids": [
+        "MVmugon2"
+      ],
+      "year": 2021
+    },
+    "3backs": {
+      "groupName": "櫻坂４６",
+      "title": "3rd Single「BACKS LIVE!!」ビジュアルMV衣装",
+      "series_ids": [
+        "3backs"
+      ],
+      "year": 2022
+    },
+    "22hurisode": {
+      "groupName": "櫻坂４６",
+      "title": "2022年振袖衣装",
+      "series_ids": [
+        "22hurisode"
+      ],
+      "year": 2022
+    },
+    "jacnagare": {
+      "groupName": "櫻坂４６",
+      "title": "「流れ弾」ジャケット写真衣装",
+      "series_ids": [
+        "jacnagare"
+      ],
+      "year": 2022
+    },
+    "encsamidare": {
+      "groupName": "櫻坂４６",
+      "title": "「五月雨よ」封入",
+      "series_ids": [
+        "encsamidare"
+      ],
+      "year": 2022
+    },
+    "MVsamidare": {
+      "groupName": "櫻坂４６",
+      "title": "「五月雨よ」MVロケーション衣装",
+      "series_ids": [
+        "MVsamidare"
+      ],
+      "year": 2022
+    },
+    "22sprshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "2022年春私服コーディネート衣装",
+      "series_ids": [
+        "22sprshihuku"
+      ],
+      "year": 2022
+    },
+    "patissier": {
+      "groupName": "櫻坂４６",
+      "title": "パティシエ衣装",
+      "series_ids": [
+        "patissier"
+      ],
+      "year": 2022
+    },
+    "MVdilemma": {
+      "groupName": "櫻坂４６",
+      "title": "「僕のジレンマ」MVロケーション衣装",
+      "series_ids": [
+        "MVdilemma"
+      ],
+      "year": 2022
+    },
+    "MVsamidare2": {
+      "groupName": "櫻坂４６",
+      "title": "「五月雨よ」MVパフォーマンス衣装",
+      "series_ids": [
+        "MVsamidare2"
+      ],
+      "year": 2022
+    },
+    "MVshakan": {
+      "groupName": "櫻坂４６",
+      "title": "「車間距離」MVロケーション衣装",
+      "series_ids": [
+        "MVshakan"
+      ],
+      "year": 2022
+    },
+    "21wfes": {
+      "groupName": "櫻坂４６",
+      "title": "「W-KEYAKI FES.2021」ライブパフォーマンス ピンク衣装",
+      "series_ids": [
+        "21wfes"
+      ],
+      "year": 2022
+    },
+    "22camp": {
+      "groupName": "櫻坂４６",
+      "title": "2022年キャンプコーディネート衣装",
+      "series_ids": [
+        "22camp"
+      ],
+      "year": 2022
+    },
+    "risagurad": {
+      "groupName": "櫻坂４６",
+      "title": "「渡邉理佐 卒業コンサート」衣装",
+      "series_ids": [
+        "risagurad"
+      ],
+      "year": 2022
+    },
+    "encasyou": {
+      "groupName": "櫻坂４６",
+      "title": "「As you know?」封入",
+      "series_ids": [
+        "encasyou"
+      ],
+      "year": 2022
+    },
+    "22yukata": {
+      "groupName": "櫻坂４６",
+      "title": "2022年 浴衣衣装",
+      "series_ids": [
+        "22yukata"
+      ],
+      "year": 2022
+    },
+    "MVmasatsu": {
+      "groupName": "櫻坂４６",
+      "title": "「摩擦係数」MV衣装",
+      "series_ids": [
+        "MVmasatsu"
+      ],
+      "year": 2022
+    },
+    "1arn": {
+      "groupName": "櫻坂４６",
+      "title": "「1st TOUR 2021」ライブ衣装",
+      "series_ids": [
+        "1arn"
+      ],
+      "year": 2022
+    },
+    "concent": {
+      "groupName": "櫻坂４６",
+      "title": "「コンセントレーション」ライブ衣装",
+      "series_ids": [
+        "concent"
+      ],
+      "year": 2022
+    },
+    "jamabe": {
+      "groupName": "櫻坂４６",
+      "title": "「ジャマイカビール」ライブ衣装",
+      "series_ids": [
+        "jamabe"
+      ],
+      "year": 2022
+    },
+    "ningyo": {
+      "groupName": "櫻坂４６",
+      "title": "「制服の人魚」ライブ衣装",
+      "series_ids": [
+        "ningyo"
+      ],
+      "year": 2022
+    },
+    "22falshihiku": {
+      "groupName": "櫻坂４６",
+      "title": "2022年秋私服コーディネート衣装",
+      "series_ids": [
+        "22falshihiku"
+      ],
+      "year": 2022
+    },
+    "22halowen": {
+      "groupName": "櫻坂４６",
+      "title": "2022年ハロウィン衣装",
+      "series_ids": [
+        "22halowen"
+      ],
+      "year": 2022
+    },
+    "22santa": {
+      "groupName": "櫻坂４６",
+      "title": "2022年クリスマスサンタ衣装",
+      "series_ids": [
+        "22santa"
+      ],
+      "year": 2022
+    },
+    "22wfes": {
+      "groupName": "櫻坂４６",
+      "title": "「W-KEYAKI FES.2022」ライブ ピンク衣装",
+      "series_ids": [
+        "22wfes"
+      ],
+      "year": 2022
+    },
+    "22pajama": {
+      "groupName": "櫻坂４６",
+      "title": "2022年 もこもこパジャマ衣装",
+      "series_ids": [
+        "22pajama"
+      ],
+      "year": 2022
+    },
+    "23hurisode": {
+      "groupName": "櫻坂４６",
+      "title": "2023年 振袖衣装",
+      "series_ids": [
+        "23hurisode"
+      ],
+      "year": 2023
+    },
+    "usamimi": {
+      "groupName": "櫻坂４６",
+      "title": "うさみみコーデ",
+      "series_ids": [
+        "usamimi"
+      ],
+      "year": 2023
+    },
+    "encsakura": {
+      "groupName": "櫻坂４６",
+      "title": "「桜月」封入",
+      "series_ids": [
+        "encsakura"
+      ],
+      "year": 2023
+    },
+    "MVnatsuchika": {
+      "groupName": "櫻坂４６",
+      "title": "「夏の近道」MV衣装",
+      "series_ids": [
+        "MVnatsuchika"
+      ],
+      "year": 2023
+    },
+    "MVnatsuchika2": {
+      "groupName": "櫻坂４６",
+      "title": "「夏の近道」MV制服",
+      "series_ids": [
+        "MVnatsuchika2"
+      ],
+      "year": 2023
+    },
+    "3ban": {
+      "groupName": "櫻坂４６",
+      "title": "「BAN」MV衣装",
+      "series_ids": [
+        "3ban"
+      ],
+      "year": 2023
+    },
+    "23winshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "2023年冬私服コーデ",
+      "series_ids": [
+        "23winshihuku"
+      ],
+      "year": 2023
+    },
+    "2anv": {
+      "groupName": "櫻坂４６",
+      "title": "「2nd YEAR ANNIVERSARY ～Buddies感謝祭～」ライブ衣装",
+      "series_ids": [
+        "2anv"
+      ],
+      "year": 2023
+    },
+    "apron": {
+      "groupName": "櫻坂４６",
+      "title": "エプロンコーデ",
+      "series_ids": [
+        "apron"
+      ],
+      "year": 2023
+    },
+    "MVsakura": {
+      "groupName": "櫻坂４６",
+      "title": "「桜月」MV衣装",
+      "series_ids": [
+        "MVsakura"
+      ],
+      "year": 2023
+    },
+    "2arn": {
+      "groupName": "櫻坂４６",
+      "title": "「2nd TOUR 2022」青衣装",
+      "series_ids": [
+        "2arn"
+      ],
+      "year": 2023
+    },
+    "3booklet": {
+      "groupName": "櫻坂４６",
+      "title": "3期生ブックレット衣装",
+      "series_ids": [
+        "3booklet"
+      ],
+      "year": 2023
+    },
+    "suit": {
+      "groupName": "櫻坂４６",
+      "title": "スーツコーデ",
+      "series_ids": [
+        "suit"
+      ],
+      "year": 2023
+    },
+    "MVcool": {
+      "groupName": "櫻坂４６",
+      "title": "「Cool」MV衣装",
+      "series_ids": [
+        "MVcool"
+      ],
+      "year": 2023
+    },
+    "MVsakura2": {
+      "groupName": "櫻坂４６",
+      "title": "「桜月」MV青衣装",
+      "series_ids": [
+        "MVsakura2"
+      ],
+      "year": 2023
+    },
+    "2arn2": {
+      "groupName": "櫻坂４６",
+      "title": "「2nd TOUR 2022」オープニング衣装",
+      "series_ids": [
+        "2arn2"
+      ],
+      "year": 2023
+    },
+    "color": {
+      "groupName": "櫻坂４６",
+      "title": "カラーコーデ",
+      "series_ids": [
+        "color"
+      ],
+      "year": 2023
+    },
+    "encstov": {
+      "groupName": "櫻坂４６",
+      "title": "「Start over!」封入",
+      "series_ids": [
+        "encstov"
+      ],
+      "year": 2023
+    },
+    "3arn": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd TOUR 2023」オープニング衣装",
+      "series_ids": [
+        "3arn"
+      ],
+      "year": 2023
+    },
+    "roman": {
+      "groupName": "櫻坂４６",
+      "title": "大正浪漫衣装",
+      "series_ids": [
+        "roman"
+      ],
+      "year": 2023
+    },
+    "jacstov": {
+      "groupName": "櫻坂４６",
+      "title": "「Start over!」ジャケット写真衣装",
+      "series_ids": [
+        "jacstov"
+      ],
+      "year": 2023
+    },
+    "MVstov": {
+      "groupName": "櫻坂４６",
+      "title": "「Start over!」MV衣装",
+      "series_ids": [
+        "MVstov"
+      ],
+      "year": 2023
+    },
+    "MVseijaku": {
+      "groupName": "櫻坂４６",
+      "title": "「静寂の暴力」MV衣装",
+      "series_ids": [
+        "MVseijaku"
+      ],
+      "year": 2023
+    },
+    "sumdres": {
+      "groupName": "櫻坂４６",
+      "title": "サマーワンピース",
+      "series_ids": [
+        "sumdres"
+      ],
+      "year": 2023
+    },
+    "MVdrone": {
+      "groupName": "櫻坂４６",
+      "title": "「ドローン旋回中」MV衣装",
+      "series_ids": [
+        "MVdrone"
+      ],
+      "year": 2023
+    },
+    "22wfes2": {
+      "groupName": "櫻坂４６",
+      "title": "「W-KEYAKI FES.2022」 赤ピンク衣装",
+      "series_ids": [
+        "22wfes2"
+      ],
+      "year": 2023
+    },
+    "denim": {
+      "groupName": "櫻坂４６",
+      "title": "デニムコーデ",
+      "series_ids": [
+        "denim"
+      ],
+      "year": 2023
+    },
+    "23halowen": {
+      "groupName": "櫻坂４６",
+      "title": "2023年 ハロウィン衣装",
+      "series_ids": [
+        "23halowen"
+      ],
+      "year": 2023
+    },
+    "encshonin": {
+      "groupName": "櫻坂４６",
+      "title": "「承認欲求」封入",
+      "series_ids": [
+        "encshonin"
+      ],
+      "year": 2023
+    },
+    "23santa": {
+      "groupName": "櫻坂４６",
+      "title": "2023年 クリスマスサンタ衣装",
+      "series_ids": [
+        "23santa"
+      ],
+      "year": 2023
+    },
+    "3arn2": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd TOUR 2023」白スーツ衣装",
+      "series_ids": [
+        "3arn2"
+      ],
+      "year": 2023
+    },
+    "23sumfes": {
+      "groupName": "櫻坂４６",
+      "title": "2023年 夏フェス衣装",
+      "series_ids": [
+        "23sumfes"
+      ],
+      "year": 2023
+    },
+    "3nobody": {
+      "groupName": "櫻坂４６",
+      "title": "「Nobody's fault」MV衣装",
+      "series_ids": [
+        "3nobody"
+      ],
+      "year": 2023
+    },
+    "23dokusho": {
+      "groupName": "櫻坂４６",
+      "title": "2023年 読書コーデ",
+      "series_ids": [
+        "23dokusho"
+      ],
+      "year": 2023
+    },
+    "24hurisode": {
+      "groupName": "櫻坂４６",
+      "title": "2024年 振袖衣装",
+      "series_ids": [
+        "24hurisode"
+      ],
+      "year": 2023
+    },
+    "22yearend": {
+      "groupName": "櫻坂４６",
+      "title": "2022年　年末歌唱衣装",
+      "series_ids": [
+        "22yearend"
+      ],
+      "year": 2023
+    },
+      "jacshonin": {
+      "groupName": "櫻坂４６",
+      "title": "「承認欲求」ジャケット写真衣装",
+      "series_ids": [
+        "jacshonin"
+      ],
+      "year": 2024
+    },
+    "MVshonin": {
+      "groupName": "櫻坂４６",
+      "title": "「承認欲求」MV衣装",
+      "series_ids": [
+        "MVshonin"
+      ],
+      "year": 2024
+    },
+    "MVmamori": {
+      "groupName": "櫻坂４６",
+      "title": "マモリビト　MV",
+      "series_ids": [
+        "MVmamori"
+      ],
+      "year": 2024
+    },
+    "3backs": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd Single BACKS LIVE!!」衣装",
+      "series_ids": [
+        "3backs"
+      ],
+      "year": 2024
+    },
+    "ouchi": {
+      "groupName": "櫻坂４６",
+      "title": "おうちコーデ",
+      "series_ids": [
+        "ouchi"
+      ],
+      "year": 2024
+    },
+    "MVsukima": {
+      "groupName": "櫻坂４６",
+      "title": "「隙間風よ」MV衣装",
+      "series_ids": [
+        "MVsukima"
+      ],
+      "year": 2024
+    },
+    "stovlive": {
+      "groupName": "櫻坂４６",
+      "title": "「Start over!」歌唱衣装",
+      "series_ids": [
+        "stovlive"
+      ],
+      "year": 2024
+    },
+    "jump": {
+      "groupName": "櫻坂４６",
+      "title": "ジャンプスーツ",
+      "series_ids": [
+        "jump"
+      ],
+      "year": 2024
+    },
+    "encikumodo": {
+      "groupName": "櫻坂４６",
+      "title": "「何歳の頃に戻りたいのか？」封入",
+      "series_ids": [
+        "encikumodo"
+      ],
+      "year": 2024
+    },
+    "3arn3": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd TOUR 2023」ピンク衣装",
+      "series_ids": [
+        "3arn3"
+      ],
+      "year": 2024
+    },
+    "3anv2": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd YEAR ANNIVERSARY LIVE」ライブ衣装　黒",
+      "series_ids": [
+        "3anv2"
+      ],
+      "year": 2024
+    },
+    "jacikumodo": {
+      "groupName": "櫻坂４６",
+      "title": "「何歳の頃に戻りたいのか？」ジャケット写真衣装",
+      "series_ids": [
+        "jacikumodo"
+      ],
+      "year": 2024
+    },
+    "24sprshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "2024年　春私服コーデ",
+      "series_ids": [
+        "24sprshihuku"
+      ],
+      "year": 2024
+    },
+    "MVikumodo": {
+      "groupName": "櫻坂４６",
+      "title": "「何歳の頃に戻りたいのか？」MV衣装",
+      "series_ids": [
+        "MVikumodo"
+      ],
+      "year": 2024
+    },
+    "MVnanlove": {
+      "groupName": "櫻坂４６",
+      "title": "「何度　LOVE SONGの歌詞を読み返しただろう」MV衣装",
+      "series_ids": [
+        "MVnanlove"
+      ],
+      "year": 2024
+    },
+    "7backs": {
+      "groupName": "櫻坂４６",
+      "title": "「7th Single BACKS LIVE!!」オープニング衣装",
+      "series_ids": [
+        "7backs"
+      ],
+      "year": 2024
+    },
+    "MVabura": {
+      "groupName": "櫻坂４６",
+      "title": "「油を注せ！」MV衣装",
+      "series_ids": [
+        "MVabura"
+      ],
+      "year": 2024
+    },
+    "yuigrad": {
+      "groupName": "櫻坂４６",
+      "title": "「小林由依 卒業コンサート」ライブ衣装",
+      "series_ids": [
+        "yuigrad"
+      ],
+      "year": 2024
+    },
+    "colordenim": {
+      "groupName": "櫻坂４６",
+      "title": "カラーデニム",
+      "series_ids": [
+        "colordenim"
+      ],
+      "year": 2024
+    },
+    "24yukata": {
+      "groupName": "櫻坂４６",
+      "title": "2024年　浴衣",
+      "series_ids": [
+        "24yukata"
+      ],
+      "year": 2024
+    },
+    "yuigrad2": {
+      "groupName": "櫻坂４６",
+      "title": "「小林由依卒業コンサート」赤衣装",
+      "series_ids": [
+        "yuigrad2"
+      ],
+      "year": 2024
+    },
+    "23arn4": {
+      "groupName": "櫻坂４６",
+      "title": "「3rd TOUR 2023」ライブ衣装",
+      "series_ids": [
+        "23arn4"
+      ],
+      "year": 2024
+    },
+    "encjgjt": {
+      "groupName": "櫻坂４６",
+      "title": "「自業自得」封入",
+      "series_ids": [
+        "encjgjt"
+      ],
+      "year": 2024
+    },
+    "mugiwara": {
+      "groupName": "櫻坂４６",
+      "title": "麦わら帽子コーデ",
+      "series_ids": [
+        "mugiwara"
+      ],
+      "year": 2024
+    },
+    "23yearend": {
+      "groupName": "櫻坂４６",
+      "title": "2023年　年末歌唱衣装",
+      "series_ids": [
+        "23yearend"
+      ],
+      "year": 2024
+    },
+    "jacjgjt": {
+      "groupName": "櫻坂４６",
+      "title": "「自業自得」ジャケット写真衣装",
+      "series_ids": [
+        "jacjgjt"
+      ],
+      "year": 2024
+    },
+    "MVjgjt": {
+      "groupName": "櫻坂４６",
+      "title": "「自業自得」MV衣装",
+      "series_ids": [
+        "MVjgjt"
+      ],
+      "year": 2024
+    },
+    "8backs": {
+      "groupName": "櫻坂４６",
+      "title": "「8th Single BACKS LIVE!!」ライブ衣装",
+      "series_ids": [
+        "8backs"
+      ],
+      "year": 2024
+    },
+    "MVaisi": {
+      "groupName": "櫻坂４６",
+      "title": "「愛し合いなさい」MVカラフル衣装",
+      "series_ids": [
+        "MVaisi"
+      ],
+      "year": 2024
+    },
+    "MVaisi2": {
+      "groupName": "櫻坂４６",
+      "title": "「愛し合いなさい」MV黒衣装",
+      "series_ids": [
+        "MVaisi2"
+      ],
+      "year": 2024
+    },
+    "tshirt": {
+      "groupName": "櫻坂４６",
+      "title": "Tシャツコーデ",
+      "series_ids": [
+        "tshirt"
+      ],
+      "year": 2024
+    },
+    "MVhkkm": {
+      "groupName": "櫻坂４６",
+      "title": "「引きこもる時間はない」MV衣装",
+      "series_ids": [
+        "MVhkkm"
+      ],
+      "year": 2024
+    },
+    "4arn": {
+      "groupName": "櫻坂４６",
+      "title": "「4th ARENA TOUR 2024」ライブ衣装",
+      "series_ids": [
+        "4arn"
+      ],
+      "year": 2024
+    },
+    "yshirt": {
+      "groupName": "櫻坂４６",
+      "title": "ワイシャツコーデ",
+      "series_ids": [
+        "yshirt"
+      ],
+      "year": 2024
+    },
+    "24halowen": {
+      "groupName": "櫻坂４６",
+      "title": "2024年　ハロウィン衣装",
+      "series_ids": [
+        "24halowen"
+      ],
+      "year": 2024
+    },
+    "knit": {
+      "groupName": "櫻坂４６",
+      "title": "カラーニットコーデ",
+      "series_ids": [
+        "knit"
+      ],
+      "year": 2024
+    },
+    "enciwtc": {
+      "groupName": "櫻坂４６",
+      "title": "「I want tomorrow to come」封入",
+      "series_ids": [
+        "enciwtc"
+      ],
+      "year": 2024
+    },
+    "24santa": {
+      "groupName": "櫻坂４６",
+      "title": "2024年　クリスマスサンタ衣装",
+      "series_ids": [
+        "24santa"
+      ],
+      "year": 2024
+    },
+    "4arndomeop": {
+      "groupName": "櫻坂４６",
+      "title": "「4th ARENA TOUR IN 東京ドーム」オープニング衣装",
+      "series_ids": [
+        "4arndomeop"
+      ],
+      "year": 2024
+    },
+    "doubutsu": {
+      "groupName": "櫻坂４６",
+      "title": "どうぶつ着ぐるみ",
+      "series_ids": [
+        "doubutsu"
+      ],
+      "year": 2024
+    },
+    "MVboku": {
+      "groupName": "櫻坂４６",
+      "title": "「僕は僕を好きになれない」MV衣装",
+      "series_ids": [
+        "MVboku"
+      ],
+      "year": 2024
+    },
+    "9backs": {
+      "groupName": "櫻坂４６",
+      "title": "「9th Single BACKS LIVE!!」オープニング衣装",
+      "series_ids": [
+        "9backs"
+      ],
+      "year": 2024
+    },
+    "scarf": {
+      "groupName": "櫻坂４６",
+      "title": "マフラーコーデ",
+      "series_ids": [
+        "scarf"
+      ],
+      "year": 2024
+    },
+    "jaciwtc": {
+      "groupName": "櫻坂４６",
+      "title": "「I want tomorrow to come」ジャケット写真衣装",
+      "series_ids": [
+        "jaciwtc"
+      ],
+      "year": 2024
+    },
+    "MViwtc": {
+      "groupName": "櫻坂４６",
+      "title": "「I want tomorrow to come」MV衣装",
+      "series_ids": [
+        "MViwtc"
+      ],
+      "year": 2024
+    },
+    "MVhonshitsu": {
+      "groupName": "櫻坂４６",
+      "title": "「本質的なこと」MV衣装",
+      "series_ids": [
+        "MVhonshitsu"
+      ],
+      "year": 2024
+    },
+    "25hurisode": {
+      "groupName": "櫻坂４６",
+      "title": "2025年　振袖",
+      "series_ids": [
+        "25hurisode"
+      ],
+      "year": 2025
+    },
+    "23yearend": {
+      "groupName": "櫻坂４６",
+      "title": "2023年　年末衣装",
+      "series_ids": [
+        "23yearend"
+      ],
+      "year": 2025
+    },
+    "inumimi": {
+      "groupName": "櫻坂４６",
+      "title": "いぬみみコーデ",
+      "series_ids": [
+        "inumimi"
+      ],
+      "year": 2025
+    },
+    "encudagawa": {
+      "groupName": "櫻坂４６",
+      "title": "「UDAGAWA GENERATION」封入",
+      "series_ids": [
+        "encudagawa"
+      ],
+      "year": 2025
+    },
+    "jacudagawa": {
+      "groupName": "櫻坂４６",
+      "title": "「UDAGAWA GENERATION」ジャケット写真衣装",
+      "series_ids": [
+        "jacudagawa"
+      ],
+      "year": 2025
+    },
+    "MVudagawa": {
+      "groupName": "櫻坂４６",
+      "title": "「UDAGAWA GENERATION」MV衣装",
+      "series_ids": [
+        "MVudagawa"
+      ],
+      "year": 2025
+    },
+    "MVnight": {
+      "groupName": "櫻坂４６",
+      "title": "「Nightmare症候群」MV衣装",
+      "series_ids": [
+        "MVnight"
+      ],
+      "year": 2025
+    },
+    "MVnight2": {
+      "groupName": "櫻坂４６",
+      "title": "「Nightmare症候群」MV衣装 赤",
+      "series_ids": [
+        "MVnight2"
+      ],
+      "year": 2025
+    },
+    "MVnospe": {
+      "groupName": "櫻坂４６",
+      "title": "「Nothing special」MV衣装",
+      "series_ids": [
+        "MVnospe"
+      ],
+      "year": 2025
+    },
+    "24sumfes": {
+      "groupName": "櫻坂４６",
+      "title": "2024年　夏フェス衣装",
+      "series_ids": [
+        "24sumfes"
+      ],
+      "year": 2025
+    },
+    "mode": {
+      "groupName": "櫻坂４６",
+      "title": "モードコーデ",
+      "series_ids": [
+        "mode"
+      ],
+      "year": 2025
+    },
+    "4arnop": {
+      "groupName": "櫻坂４６",
+      "title": "「4th ARENA TOUR」オープニング衣装",
+      "series_ids": [
+        "4arnop"
+      ],
+      "year": 2025
+    },
+    "winshihuku": {
+      "groupName": "櫻坂４６",
+      "title": "冬私服コーデ",
+      "series_ids": [
+        "winshihuku"
+      ],
+      "year": 2025
+    },
+    "4anv": {
+      "groupName": "櫻坂４６",
+      "title": "「4th YEAR ANNIVERSARY LIVE」ライブ衣装",
+      "series_ids": [
+        "4anv"
+      ],
+      "year": 2025
+    },
+    "4arn2": {
+      "groupName": "櫻坂４６",
+      "title": "「4th ARENA TOUR」ライブ衣装",
+      "series_ids": [
+        "4arn2"
+      ],
+      "year": 2025
+    },
+    "nektie": {
+      "groupName": "櫻坂４６",
+      "title": "ネクタイコーデ",
+      "series_ids": [
+        "nektie"
+      ],
+      "year": 2025
+    },
+    "encadic": {
+      "groupName": "櫻坂４６",
+      "title": "「Addiction」封入",
+      "series_ids": [
+        "encadic"
+      ],
+      "year": 2025
+    },
+    "MVadic": {
+      "groupName": "櫻坂４６",
+      "title": "「Addiction」MV衣装",
+      "series_ids": [
+        "MVadic"
+      ],
+      "year": 2025
+    },
+    "3liveop": {
+      "groupName": "櫻坂４６",
+      "title": "「三期生ライブ」オープニング衣装",
+      "series_ids": [
+        "3liveop"
+      ],
+      "year": 2025
+    },
+    "leather": {
+      "groupName": "櫻坂４６",
+      "title": "レザージャケットコーデ",
+      "series_ids": [
+        "leather"
+      ],
+      "year": 2025
+    },
+    "4debut": {
+      "groupName": "櫻坂４６",
+      "title": "四期生お披露目制服",
+      "series_ids": [
+        "4debut"
+      ],
+      "year": 2025
+    },
+    "fst": {
+      "groupName": "櫻坂４６",
+      "title": "First Showcase ロゴTシャツ",
+      "series_ids": [
+        "fst"
+      ],
+      "year": 2025
+    },
+    "shihuku": {
+      "groupName": "櫻坂４６",
+      "title": "私服コーデ",
+      "series_ids": [
+        "shihuku"
+      ],
+      "year": 2025
+    },
+    "encmob": {
+      "groupName": "櫻坂４６",
+      "title": "「Make or Break」封入",
+      "series_ids": [
+        "encmob"
+      ],
+      "year": 2025
+    },
+    "25yukata": {
+      "groupName": "櫻坂４６",
+      "title": "2025年 浴衣",
+      "series_ids": [
+        "25yukata"
+      ],
+      "year": 2025
+    },
+    "4arndome": {
+      "groupName": "櫻坂４６",
+      "title": "「4th ARENA TOUR IN 東京ドーム」ライブ衣装",
+      "series_ids": [
+        "4arndome"
+      ],
+      "year": 2025
+    },
+    "24sumfes2": {
+      "groupName": "櫻坂４６",
+      "title": "2024年 夏フェス衣装",
+      "series_ids": [
+        "24sumfes2"
+      ],
+      "year": 2025
+    },
+    "MVparseley": {
+      "groupName": "櫻坂４６",
+      "title": "「港区パセリ」MV衣装",
+      "series_ids": [
+        "MVparseley"
+      ],
+      "year": 2025
+    },
+    "10backs": {
+      "groupName": "櫻坂４６",
+      "title": "「10th Single BACKS LIVE!!」ライブ衣装",
+      "series_ids": [
+        "10backs"
+      ],
+      "year": 2025
+    },
+    "11backs": {
+      "groupName": "櫻坂４６",
+      "title": "「11th Single BACKS LIVE!!」ライブ衣装",
+      "series_ids": [
+        "11backs"
+      ],
+      "year": 2025
+    },
+    "polo": {
+      "groupName": "櫻坂４６",
+      "title": "ポロシャツコーデ",
+      "series_ids": [
+        "polo"
+      ],
+      "year": 2025
+    },
+    "classic": {
+      "groupName": "櫻坂４６",
+      "title": "クラシックコーデ",
+      "series_ids": [
+        "classic"
+      ],
+      "year": 2025
+    },
+    "12uni": {
+      "groupName": "櫻坂４６",
+      "title": "12th制服",
+      "series_ids": [
+        "12uni"
+      ],
+      "year": 2025
+    },
+    "jacmob": {
+      "groupName": "櫻坂４６",
+      "title": "「Make or Break」ジャケット写真衣装",
+      "series_ids": [
+        "jacmob"
+      ],
+      "year": 2025
+    },
+    "MVmob": {
+      "groupName": "櫻坂４６",
+      "title": "「Make or Break」MV衣装",
+      "series_ids": [
+        "MVmob"
+      ],
+      "year": 2025
+    },
+    "MVmob2": {
+      "groupName": "櫻坂４６",
+      "title": "「Make or Break」MV衣装 青",
+      "series_ids": [
+        "MVmob2"
+      ],
+      "year": 2025
+    },
+    "MVsindahuri": {
+      "groupName": "櫻坂４６",
+      "title": "「死んだふり」MV衣装",
+      "series_ids": [
+        "MVsindahuri"
+      ],
+      "year": 2025
+    },
+    "MVshindahuri2": {
+      "groupName": "櫻坂４６",
+      "title": "「死んだふり」MV衣装 白",
+      "series_ids": [
+        "MVshindahuri2"
+      ],
+      "year": 2025
+    },
 
     
     "2025-06-2": {
