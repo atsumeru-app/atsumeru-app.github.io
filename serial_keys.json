@@ -345,7 +345,7 @@
     "encsakura": {
       "seriesName": "「桜月」封入",
       "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
-      "members": ["上村莉菜","小池美波","小林由衣","齋藤冬優花","土生瑞穂","井上梨名","遠藤光莉","大園玲","大沼晶保","幸阪茉里乃","関有美子","武元唯衣","田村保乃","藤吉夏鈴","増本綺良","松田里奈","森田ひかる","守屋麗奈","山﨑天”,"石森璃花","遠藤理子","小田倉麗奈","小島凪紗","谷口愛季","中嶋優月","的野美青","向井純葉","村山美羽"],
+      "members": ["上村莉菜","小池美波","小林由衣","齋藤冬優花","土生瑞穂","井上梨名","遠藤光莉","大園玲","大沼晶保","幸阪茉里乃","関有美子","武元唯衣","田村保乃","藤吉夏鈴","増本綺良","松田里奈","森田ひかる","守屋麗奈","山﨑天","石森璃花","遠藤理子","小田倉麗奈","小島凪紗","谷口愛季","中嶋優月","的野美青","向井純葉","村山美羽"],
       "tags": ["封入"]
     },
     "MVnatsuchika": {
@@ -1026,6 +1026,36 @@
       "members": ["浅井恋乃未","稲熊ひな","勝又春","佐藤愛桜","中川智尋","松本和子","目黒陽色","山川宇衣","山田桃実"],
       "tags": ["4期生"]
     },
+    "jacmob": {
+      "seriesName": "「Make or Break」ジャケット写真衣装",
+      "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
+      "members": ["井上梨名","遠藤光莉","大園玲","大沼晶保","幸阪茉里乃","武元唯衣","田村保乃","藤吉夏鈴","増本綺良","松田里奈","森田ひかる","守屋麗奈","山﨑天","石森璃花","遠藤理子","小田倉麗奈","小島凪紗","谷口愛季","中嶋優月","的野美青","向井純葉","村井優","村山美羽","山下瞳月","浅井恋乃未","稲熊ひな","勝又春","佐藤愛桜","中川智尋","松本和子","目黒陽色","山川宇衣","山田桃実"],
+      "tags": ["ジャケット"]
+    },
+    "MVmob": {
+      "seriesName": "「Make or Break」MV衣装",
+      "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
+      "members": ["大園玲","田村保乃","藤吉夏鈴","松田里奈","森田ひかる","守屋麗奈","山﨑天","谷口愛季","中嶋優月","的野美青","向井純葉","村井優","村山美羽","山下瞳月"],
+      "tags": ["MV"]
+    },
+    "MVmob2": {
+      "seriesName": "「Make or Break」MV衣装 青",
+      "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
+      "members": ["大園玲","田村保乃","藤吉夏鈴","松田里奈","森田ひかる","守屋麗奈","山﨑天","谷口愛季","中嶋優月","的野美青","向井純葉","村井優","村山美羽","山下瞳月"],
+      "tags": ["MV"]
+    },
+    "MVsindahuri": {
+      "seriesName": "「死んだふり」MV衣装",
+      "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
+      "members": ["浅井恋乃未","稲熊ひな","勝又春","佐藤愛桜","中川智尋","松本和子","目黒陽色","山川宇衣","山田桃実"],
+      "tags": ["４期生","MV"]
+    },
+    "MVshindahuri2": {
+      "seriesName": "「死んだふり」MV衣装 白",
+      "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリ"],
+      "members": ["浅井恋乃未","稲熊ひな","勝又春","佐藤愛桜","中川智尋","松本和子","目黒陽色","山川宇衣","山田桃実"],
+      "tags": ["４期生","MV"]
+    },
 
     
     "2025-06-2": {
@@ -1044,48 +1074,312 @@
   
   
   "keys": {
-    "set25arn": {
-      "groupName": "櫻坂46",
-      "title": "4thアニラ＆ネクタイコーデ セット",
-      "series_ids": ["4thanv", "nektie"],
-      "year": 2025
-    },
-    "yukata25": {
-      "groupName": "櫻坂46",
-      "title": "2025年 浴衣",
-      "series_ids": ["yukata25"],
-      "year": 2025
-    },
-    "4tharndome": {
-      "groupName": "櫻坂46",
-      "title": "「4th ARENA TOUR IN 東京ドーム」ライブ衣装",
-      "series_ids": ["4tharndome"],
-      "year": 2025
-    },
-    "24sumfes": {
-      "groupName": "櫻坂46",
-      "title": "2024年 夏フェス衣装",
-      "series_ids": ["24sumfes"],
-      "year": 2025
-    },
-    "4thanv": {
-      "groupName": "櫻坂46",
-      "title": "「4th YEAR ANNIVERSARY LIVE」ライブ衣装",
-      "series_ids": ["4thanv"],
-      "year": 2025
-    },
-    "4tharn": {
-      "groupName": "櫻坂46",
-      "title": "「4th ARENA TOUR」ライブ衣装",
-      "series_ids": ["4tharn"],
-      "year": 2025
-    },
-    "nektie": {
-      "groupName": "櫻坂46",
-      "title": "ネクタイコーデ",
-      "series_ids": ["nektie"],
-      "year": 2025
-    },
+    "25hurisode": {
+    "groupName": "櫻坂４６",
+    "title": "2025年　振袖",
+    "series_ids": [
+      "25hurisode"
+    ],
+    "year": 2025
+  },
+  "23yearend": {
+    "groupName": "櫻坂４６",
+    "title": "2023年　年末衣装",
+    "series_ids": [
+      "23yearend"
+    ],
+    "year": 2025
+  },
+  "inumimi": {
+    "groupName": "櫻坂４６",
+    "title": "いぬみみコーデ",
+    "series_ids": [
+      "inumimi"
+    ],
+    "year": 2025
+  },
+  "encudagawa": {
+    "groupName": "櫻坂４６",
+    "title": "「UDAGAWA GENERATION」封入",
+    "series_ids": [
+      "encudagawa"
+    ],
+    "year": 2025
+  },
+  "jacudagawa": {
+    "groupName": "櫻坂４６",
+    "title": "「UDAGAWA GENERATION」ジャケット写真衣装",
+    "series_ids": [
+      "jacudagawa"
+    ],
+    "year": 2025
+  },
+  "MVudagawa": {
+    "groupName": "櫻坂４６",
+    "title": "「UDAGAWA GENERATION」MV衣装",
+    "series_ids": [
+      "MVudagawa"
+    ],
+    "year": 2025
+  },
+  "MVnight": {
+    "groupName": "櫻坂４６",
+    "title": "「Nightmare症候群」MV衣装",
+    "series_ids": [
+      "MVnight"
+    ],
+    "year": 2025
+  },
+  "MVnight2": {
+    "groupName": "櫻坂４６",
+    "title": "「Nightmare症候群」MV衣装 赤",
+    "series_ids": [
+      "MVnight2"
+    ],
+    "year": 2025
+  },
+  "MVnospe": {
+    "groupName": "櫻坂４６",
+    "title": "「Nothing special」MV衣装",
+    "series_ids": [
+      "MVnospe"
+    ],
+    "year": 2025
+  },
+  "24sumfes": {
+    "groupName": "櫻坂４６",
+    "title": "2024年　夏フェス衣装",
+    "series_ids": [
+      "24sumfes"
+    ],
+    "year": 2025
+  },
+  "mode": {
+    "groupName": "櫻坂４６",
+    "title": "モードコーデ",
+    "series_ids": [
+      "mode"
+    ],
+    "year": 2025
+  },
+  "4arnop": {
+    "groupName": "櫻坂４６",
+    "title": "「4th ARENA TOUR」オープニング衣装",
+    "series_ids": [
+      "4arnop"
+    ],
+    "year": 2025
+  },
+  "winshihuku": {
+    "groupName": "櫻坂４６",
+    "title": "冬私服コーデ",
+    "series_ids": [
+      "winshihuku"
+    ],
+    "year": 2025
+  },
+  "4anv": {
+    "groupName": "櫻坂４６",
+    "title": "「4th YEAR ANNIVERSARY LIVE」ライブ衣装",
+    "series_ids": [
+      "4anv"
+    ],
+    "year": 2025
+  },
+  "4arn2": {
+    "groupName": "櫻坂４６",
+    "title": "「4th ARENA TOUR」ライブ衣装",
+    "series_ids": [
+      "4arn2"
+    ],
+    "year": 2025
+  },
+  "nektie": {
+    "groupName": "櫻坂４６",
+    "title": "ネクタイコーデ",
+    "series_ids": [
+      "nektie"
+    ],
+    "year": 2025
+  },
+  "encadic": {
+    "groupName": "櫻坂４６",
+    "title": "「Addiction」封入",
+    "series_ids": [
+      "encadic"
+    ],
+    "year": 2025
+  },
+  "MVadic": {
+    "groupName": "櫻坂４６",
+    "title": "「Addiction」MV衣装",
+    "series_ids": [
+      "MVadic"
+    ],
+    "year": 2025
+  },
+  "3liveop": {
+    "groupName": "櫻坂４６",
+    "title": "「三期生ライブ」オープニング衣装",
+    "series_ids": [
+      "3liveop"
+    ],
+    "year": 2025
+  },
+  "leather": {
+    "groupName": "櫻坂４６",
+    "title": "レザージャケットコーデ",
+    "series_ids": [
+      "leather"
+    ],
+    "year": 2025
+  },
+  "4debut": {
+    "groupName": "櫻坂４６",
+    "title": "四期生お披露目制服",
+    "series_ids": [
+      "4debut"
+    ],
+    "year": 2025
+  },
+  "fst": {
+    "groupName": "櫻坂４６",
+    "title": "First Showcase ロゴTシャツ",
+    "series_ids": [
+      "fst"
+    ],
+    "year": 2025
+  },
+  "shihuku": {
+    "groupName": "櫻坂４６",
+    "title": "私服コーデ",
+    "series_ids": [
+      "shihuku"
+    ],
+    "year": 2025
+  },
+  "encmob": {
+    "groupName": "櫻坂４６",
+    "title": "「Make or Break」封入",
+    "series_ids": [
+      "encmob"
+    ],
+    "year": 2025
+  },
+  "25yukata": {
+    "groupName": "櫻坂４６",
+    "title": "2025年 浴衣",
+    "series_ids": [
+      "25yukata"
+    ],
+    "year": 2025
+  },
+  "4arndome": {
+    "groupName": "櫻坂４６",
+    "title": "「4th ARENA TOUR IN 東京ドーム」ライブ衣装",
+    "series_ids": [
+      "4arndome"
+    ],
+    "year": 2025
+  },
+  "24sumfes2": {
+    "groupName": "櫻坂４６",
+    "title": "2024年 夏フェス衣装",
+    "series_ids": [
+      "24sumfes2"
+    ],
+    "year": 2025
+  },
+  "MVparseley": {
+    "groupName": "櫻坂４６",
+    "title": "「港区パセリ」MV衣装",
+    "series_ids": [
+      "MVparseley"
+    ],
+    "year": 2025
+  },
+  "10backs": {
+    "groupName": "櫻坂４６",
+    "title": "「10th Single BACKS LIVE!!」ライブ衣装",
+    "series_ids": [
+      "10backs"
+    ],
+    "year": 2025
+  },
+  "11backs": {
+    "groupName": "櫻坂４６",
+    "title": "「11th Single BACKS LIVE!!」ライブ衣装",
+    "series_ids": [
+      "11backs"
+    ],
+    "year": 2025
+  },
+  "polo": {
+    "groupName": "櫻坂４６",
+    "title": "ポロシャツコーデ",
+    "series_ids": [
+      "polo"
+    ],
+    "year": 2025
+  },
+  "classic": {
+    "groupName": "櫻坂４６",
+    "title": "クラシックコーデ",
+    "series_ids": [
+      "classic"
+    ],
+    "year": 2025
+  },
+  "12uni": {
+    "groupName": "櫻坂４６",
+    "title": "12th制服",
+    "series_ids": [
+      "12uni"
+    ],
+    "year": 2025
+  },
+  "jacmob": {
+    "groupName": "櫻坂４６",
+    "title": "「Make or Break」ジャケット写真衣装",
+    "series_ids": [
+      "jacmob"
+    ],
+    "year": 2025
+  },
+  "MVmob": {
+    "groupName": "櫻坂４６",
+    "title": "「Make or Break」MV衣装",
+    "series_ids": [
+      "MVmob"
+    ],
+    "year": 2025
+  },
+  "MVmob2": {
+    "groupName": "櫻坂４６",
+    "title": "「Make or Break」MV衣装 青",
+    "series_ids": [
+      "MVmob2"
+    ],
+    "year": 2025
+  },
+  "MVsindahuri": {
+    "groupName": "櫻坂４６",
+    "title": "「死んだふり」MV衣装",
+    "series_ids": [
+      "MVsindahuri"
+    ],
+    "year": 2025
+  },
+  "MVshindahuri2": {
+    "groupName": "櫻坂４６",
+    "title": "「死んだふり」MV衣装 白",
+    "series_ids": [
+      "MVshindahuri2"
+    ],
+    "year": 2025
+  },
+
+    
     "2025-06-2": {
       "groupName": "乃木坂46",
       "title": "浴衣（2025.July-Ⅱ）",
