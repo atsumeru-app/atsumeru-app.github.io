@@ -1058,22 +1058,113 @@
     },
 
     
-    "2025-06-2": {
+    "2025-07-2": {
       "seriesName": "浴衣（2025.July-Ⅱ）",
       "kinds": ["ヨリ", "チュウ", "ヒキ", "スワリヨリ","スワリヒキ"],
       "members": ["五百城茉央","池田瑛紗","一ノ瀬美空","伊藤理々杏","井上和","岩本蓮加","梅澤美波","遠藤さくら","岡本姫奈","小川彩","奥田いろは","賀喜遥香","金川紗耶","川崎桜","久保史緒里","黒見明香","佐藤璃果","柴田柚菜","菅原咲月","田村真佑","筒井あやめ","冨里奈央","中西アルノ","中村麗乃","林瑠奈","松尾美佑","矢久保美緒","弓木奈於","吉田綾乃クリスティー","愛宕心響","大越ひなの","小津玲奈","海邉朱莉","川端晃菜","鈴木佑奈","瀬戸口心月","長嶋凛桜","増田三莉音","森平麗心","矢田萌華"],
+      "tags": []
+    },
+    "tourT25hokkaido": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 北海道ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-07-3": {
+      "seriesName": "フリルミニスカ",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
+    },
+    "tourT25shizuoka": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 静岡ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-07-4": {
+      "seriesName": "メッシュニット",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
+    },
+    "tourT25osaka": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 大阪ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-07-5": {
+      "seriesName": "ドット",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
       "tags": []
     },
     "tourT25miyagi": {
       "seriesName": "真夏の全国ツアー2025 Tシャツ 宮城ver.",
       "kinds": ["ヨリ", "チュウ", "ヒキ"],
       "members": ["五百城茉央","池田瑛紗","一ノ瀬美空","伊藤理々杏","井上和","岩本蓮加","梅澤美波","遠藤さくら","岡本姫奈","小川彩","奥田いろは","賀喜遥香","金川紗耶","川崎桜","久保史緒里","黒見明香","佐藤璃果","柴田柚菜","菅原咲月","田村真佑","筒井あやめ","冨里奈央","中西アルノ","中村麗乃","林瑠奈","松尾美佑","矢久保美緒","弓木奈於","吉田綾乃クリスティー","愛宕心響","大越ひなの","小津玲奈","海邉朱莉","川端晃菜","鈴木佑奈","瀬戸口心月","長嶋凛桜","増田三莉音","森平麗心","矢田萌華"],
-      "tags": ["ライブTシャツ"]
+      "tags": ["ライブT"]
+    },
+    "2025-08-2": {
+      "seriesName": "スウェット",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
+    },
+    "tourT25fukuoka": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 福岡ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-08-3": {
+      "seriesName": "シャーリングワンピ",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
+    },
+    "tourT25kagawa": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 香川ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-08-4": {
+      "seriesName": "アシンメトリー",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
+    },
+    "tourT25special": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ Special",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "tourT25tokyo": {
+      "seriesName": "真夏の全国ツアー2025 Tシャツ 東京ver.",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": ["ライブT"]
+    },
+    "2025-09": {
+      "seriesName": "サマージャケット",
+      "kinds": ["ヨリ", "チュウ", "ヒキ"],
+      "members": [],
+      "tags": []
     }
   },
   
   
   "keys": {
+    "":{
+      "groupName": "",
+      "title": "",
+      "series_ids": [
+      ],
+      "year": 
+    },
     "set20sakura":{
       "groupName": "櫻坂４６",
       "title": "櫻坂４６セット（2020）",
@@ -1286,6 +1377,7 @@
       ],
       "year": 2025
     },
+    
     "encnobody": {
       "groupName": "櫻坂４６",
       "title": "「Nobody's fault」封入",
@@ -2678,18 +2770,109 @@
       ],
       "year": 2025
     },
-
     
-    "2025-06-2": {
-      "groupName": "乃木坂46",
+    "set25nogi":{
+      "groupName": "乃木坂４６",
+      "title": "乃木坂４６セット（2025）",
+      "series_ids": [
+      ],
+      "year": 2025
+    },
+    
+    "2025-07-2": {
+      "groupName": "乃木坂４６",
       "title": "浴衣（2025.July-Ⅱ）",
-      "series_ids": ["2025-06-2"],
+      "series_ids": ["2025-07-2"],
+      "year": 2025
+    },
+    "tourT25hokkaido": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 北海道ver.",
+      "series_ids": ["tourT25hokkaido"],
+      "year": 2025
+    },
+    "2025-07-3": {
+      "groupName": "乃木坂４６",
+      "title": "フリルミニスカ（2025.July-Ⅲ）",
+      "series_ids": ["2025-07-3"],
+      "year": 2025
+    },
+    "tourT25shizuoka": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 静岡ver.",
+      "series_ids": ["tourT25shizuoka"],
+      "year": 2025
+    },
+    "2025-07-4": {
+      "groupName": "乃木坂４６",
+      "title": "メッシュニット（2025.July-Ⅳ）",
+      "series_ids": ["2025-07-4"],
+      "year": 2025
+    },
+    "tourT25osaka": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 大阪ver.",
+      "series_ids": ["tourT25osaka"],
+      "year": 2025
+    },
+    "2025-07-5": {
+      "groupName": "乃木坂４６",
+      "title": "ドット（2025.July-Ⅴ）",
+      "series_ids": ["2025-07-5"],
       "year": 2025
     },
     "tourT25miyagi": {
-      "groupName": "乃木坂46",
+      "groupName": "乃木坂４６",
       "title": "真夏の全国ツアー2025 Tシャツ 宮城ver.",
       "series_ids": ["tourT25miyagi"],
+      "year": 2025
+    },
+    "2025-08-2": {
+      "groupName": "乃木坂４６",
+      "title": "スウェット（2025.August-Ⅱ）",
+      "series_ids": ["2025-08-2"],
+      "year": 2025
+    },
+    "tourT25fukuoka": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 福岡ver.",
+      "series_ids": ["tourT25fukuoka"],
+      "year": 2025
+    },
+    "2025-08-3": {
+      "groupName": "乃木坂４６",
+      "title": "シャーリングワンピ（2025.August-Ⅲ）",
+      "series_ids": ["2025-08-3"],
+      "year": 2025
+    },
+    "tourT25kagawa": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 香川ver.",
+      "series_ids": ["tourT25kagawa"],
+      "year": 2025
+    },
+    "2025-08-4": {
+      "groupName": "乃木坂４６",
+      "title": "アシンメトリー（2025.August-Ⅳ）",
+      "series_ids": ["2025-08-4"],
+      "year": 2025
+    },
+    "tourT25special": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ Special",
+      "series_ids": ["tourT25special"],
+      "year": 2025
+    },
+    "tourT25tokyo": {
+      "groupName": "乃木坂４６",
+      "title": "真夏の全国ツアー2025 Tシャツ 東京ver.",
+      "series_ids": ["tourT25tokyo"],
+      "year": 2025
+    },
+    "2025-09": {
+      "groupName": "乃木坂４６",
+      "title": "サマージャケット（2025.September）",
+      "series_ids": ["2025-09"],
       "year": 2025
     }
   }
